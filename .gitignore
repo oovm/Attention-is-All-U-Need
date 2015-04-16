@@ -1,4 +1,21 @@
+# IDE
 .idea/
-*.iml
 .vscode/
 .vs/
+*.iml
+
+# Yarn
+yarn.lock
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Thumbs.db
+.DS_Store
+*.zip
+
+# Build
+.build/
+.cache/
+.temp/
+
