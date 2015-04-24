@@ -16,15 +16,15 @@ tryE[n_,power_,solvers_]:=Flatten[
 
 try1[n_,power_,solvers_]:=Block[
     {a,k,e,x,delta,out},
-    e=(x+a)^2 *E^x/k;
+    e=Inactive[Integrate][(x+a)^2 *E^x/k,{x,0,power}];
     delta = If[n>E^power,n-E^power,E^power-n];
-    out=Integrate[e,{x,0,power}]-delta;
+    out=Activate[e]-delta;
     out=CoefficientList[out,E^power];
     out=FindInstance[
-    {out==0},
-    {a,k},
-    Integers,
-    solvers
+        {out==0},
+        {a,k},
+        Integers,
+        solvers
     ];
     If[!ListQ@out,Return@{}];
     If[Length[out]==0,Return@{} ];
@@ -37,10 +37,10 @@ try2[n_,power_,solvers_]:=Block[
     out=Integrate[e,{x,0,power}]-delta;
     out=CoefficientList[out,E^power];
     out=FindInstance[
-    {out==0},
-    {a,b,k},
-    Integers,
-    solvers
+        {out==0},
+        {a,b,k},
+        Integers,
+        solvers
     ];
     If[!ListQ@out,Return@{}];
     If[Length[out]==0,Return@{} ];
@@ -53,10 +53,10 @@ try3[n_,power_,solvers_]:=Block[
     out=Integrate[e,{x,0,power}]-delta;
     out=CoefficientList[out,E^power];
     out=FindInstance[
-    {out==0},
-    {a,b,c,k},
-    Integers,
-    solvers
+        {out==0},
+        {a,b,c,k},
+        Integers,
+        solvers
     ];
     If[!ListQ@out,Return@{}];
     If[Length[out]==0,Return@{} ];
@@ -69,10 +69,10 @@ try4[n_,power_,solvers_]:=Block[
     out=Integrate[e,{x,0,power}]-delta;
     out=CoefficientList[out,E^power];
     out=FindInstance[
-    {out==0},
-    {a,b,c,d,k},
-    Integers,
-    solvers
+        {out==0},
+        {a,b,c,d,k},
+        Integers,
+        solvers
     ];
     If[!ListQ@out,Return@{}];
     If[Length[out]==0,Return@{} ];
