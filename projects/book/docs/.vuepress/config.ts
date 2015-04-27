@@ -1,10 +1,7 @@
-import {SidebarConfig, SiteLocaleConfig} from "vuepress";
-import {SidebarConfigArray} from "@vuepress/theme-default/lib/shared/nav";
-
-import {defineUserConfig, defaultTheme} from 'vuepress'
+import {defaultTheme, defineUserConfig, SiteLocaleConfig} from "vuepress";
 import {shikiPlugin} from "@vuepress/plugin-shiki";
-import {IGrammar} from "vscode-textmate";
 import * as path from "path";
+import {sidebar_cn} from "./sidebars";
 
 
 const locales: SiteLocaleConfig = {
@@ -17,43 +14,6 @@ const locales: SiteLocaleConfig = {
         title: 'Valkyrie Tutorial',
     }
 };
-
-function build_sidebar(lang: string): SidebarConfigArray {
-    return [
-        {
-            text: 'π 家族',
-            collapsible: true,
-            children: [
-                {
-                    text: "4k + i 型逼近",
-                    link: `/${lang}/π-family/4k+i.md`,
-                },
-                {
-                    text: "Number Literal",
-                    link: "/en/literal/number.md",
-                },
-                {
-                    text: "String Formatted",
-                    link: "/en/literal/string.md",
-                },
-                {
-                    text: "String Templated",
-                    link: "/en/literal/template.md",
-                },
-            ]
-        },
-        {
-            text: 'e 家族',
-            collapsible: false,
-            children: []
-        },
-        {
-            text: 'Appendix',
-            collapsible: false,
-            children: []
-        }
-    ]
-}
 
 const theme = defaultTheme(
     {
@@ -68,17 +28,13 @@ const theme = defaultTheme(
                 selectLanguageText: '选择语言',
                 selectLanguageName: "简体中文",
                 editLinkText: '在 GitHub 上编辑此页',
-                sidebar: {
-                    "/cn/": build_sidebar("cn"),
-                },
+                sidebar: sidebar_cn,
             },
             '/en/': {
                 selectLanguageText: 'Languages',
                 selectLanguageName: 'English',
                 editLinkText: 'Edit this page on GitHub',
-                sidebar: {
-                    "/en/": build_sidebar("en"),
-                },
+                sidebar: sidebar_cn,
                 navbar: []
             },
         },
