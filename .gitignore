@@ -19,3 +19,6 @@ Thumbs.db
 .cache/
 .temp/
 
+# Cargo
+target/
+Cargo.lock

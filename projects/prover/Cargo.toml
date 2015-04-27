@@ -5,11 +5,8 @@ version = "0.0.0"
 edition = "2021"
 
 [dependencies]
+num = "0.4.1"
 anyhow = "1.0.75"
-
-[dependencies.yggdrasil-shared]
-version = "0.2.*"
-path = '../ygg-core'
 
 [features]
 default = []

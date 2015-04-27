@@ -5,6 +5,7 @@ default-members = [
     "projects/prover",
 ]
 exclude = [
+    "projects/book",
     "projects/.DS_Store",
 ]
 
