@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["projects/*"]
+default-members = [
+    "projects/prover",
+]
+exclude = [
+    "projects/.DS_Store",
+]
+
+[profile.release]
+lto = true
+panic = "abort"

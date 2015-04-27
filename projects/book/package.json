@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "reset": "git reset Head~ --soft",
+        "start": "vuepress dev docs",
+        "update": "yarn upgrade-interactive --latest",
+        "test": "yarn install && yarn start",
+        "build": "vuepress build docs",
+        "deploy": "vuepress build docs"
+    },
+    "dependencies": {
+        "@vuepress/plugin-shiki": "^2.0.0-rc.0",
+        "vuepress": "^2.0.0-rc.0"
+    }
+}
