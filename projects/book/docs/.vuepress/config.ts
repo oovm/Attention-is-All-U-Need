@@ -7,7 +7,7 @@ import {sidebar_cn} from "./sidebars";
 const locales: SiteLocaleConfig = {
     '/cn/': {
         lang: 'zh-CN',
-        title: '注意力训练手册',
+        title: '拉马努金习题册',
     },
     '/en/': {
         lang: 'en-US',
