@@ -17,11 +17,11 @@ const locales: SiteLocaleConfig = {
 
 const theme = defaultTheme(
     {
-        repo: 'nyar-lang/valkyrie-language',
+        repo: 'oovm/Attention-is-All-U-Need',
         colorModeSwitch: true,
         docsBranch: "dev",
         editLink: true,
-        docsDir: 'docs',
+        docsDir: 'projects/book/docs',
         lastUpdated: true,
         locales: {
             '/cn/': {
