@@ -29,7 +29,7 @@ format4[pattern_List]:=Block[
 
 
 SetDirectory@NotebookDirectory[];
-sets=Select[Subsets[Range@16,{2,16}],Min@#<=4&];
+sets=Select[Subsets[Range@17,{2,17}],Min@#<=4&];
 patterns=ParallelMap[filter4,sets];
 data=format4/@(First/@patterns);
 Export["4k+1.json",data,"RawJSON"]

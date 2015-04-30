@@ -78,6 +78,17 @@
 	},
 	{
 		"coefficients":[
+			3,
+			17
+		],
+		"magnification":56,
+		"positive":true,
+		"numerator":3248,
+		"denominator":585,
+		"delta":2.4105440985469588983
+	},
+	{
+		"coefficients":[
 			1,
 			2,
 			4
@@ -159,6 +170,18 @@
 		"numerator":-262,
 		"denominator":693,
 		"delta":2.7635262755234151721
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			17
+		],
+		"magnification":112,
+		"positive":false,
+		"numerator":-406,
+		"denominator":585,
+		"delta":2.4475755595726992214
 	},
 	{
 		"coefficients":[
@@ -259,6 +282,18 @@
 	{
 		"coefficients":[
 			1,
+			7,
+			17
+		],
+		"magnification":240,
+		"positive":false,
+		"numerator":-146,
+		"denominator":195,
+		"delta":2.3928747048718445205
+	},
+	{
+		"coefficients":[
+			1,
 			9,
 			11
 		],
@@ -307,6 +342,18 @@
 	{
 		"coefficients":[
 			1,
+			11,
+			17
+		],
+		"magnification":240,
+		"positive":false,
+		"numerator":-1282,
+		"denominator":819,
+		"delta":1.5762690882662279149
+	},
+	{
+		"coefficients":[
+			1,
 			13,
 			15
 		],
@@ -315,6 +362,18 @@
 		"numerator":40022,
 		"denominator":10395,
 		"delta":0.70852759653045688179
+	},
+	{
+		"coefficients":[
+			1,
+			15,
+			17
+		],
+		"magnification":112,
+		"positive":false,
+		"numerator":-116654,
+		"denominator":45045,
+		"delta":0.55187126386840351707
 	},
 	{
 		"coefficients":[
@@ -379,6 +438,18 @@
 	{
 		"coefficients":[
 			3,
+			5,
+			17
+		],
+		"magnification":112,
+		"positive":true,
+		"numerator":6566,
+		"denominator":1755,
+		"delta":0.59971788772074807208
+	},
+	{
+		"coefficients":[
+			3,
 			6,
 			12
 		],
@@ -411,6 +482,18 @@
 		"numerator":-86,
 		"denominator":45,
 		"delta":1.2304815424786821274
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			17
+		],
+		"magnification":560,
+		"positive":false,
+		"numerator":-518,
+		"denominator":585,
+		"delta":2.2561225681197077684
 	},
 	{
 		"coefficients":[
@@ -451,6 +534,18 @@
 	{
 		"coefficients":[
 			3,
+			9,
+			17
+		],
+		"magnification":336,
+		"positive":true,
+		"numerator":826,
+		"denominator":195,
+		"delta":1.0943047823076426590
+	},
+	{
+		"coefficients":[
+			3,
 			11,
 			13
 		],
@@ -463,6 +558,18 @@
 	{
 		"coefficients":[
 			3,
+			11,
+			17
+		],
+		"magnification":336,
+		"positive":false,
+		"numerator":-1298,
+		"denominator":585,
+		"delta":0.92278923478637443504
+	},
+	{
+		"coefficients":[
+			3,
 			13,
 			15
 		],
@@ -471,6 +578,30 @@
 		"numerator":3874,
 		"denominator":1155,
 		"delta":0.21251990052276087409
+	},
+	{
+		"coefficients":[
+			3,
+			13,
+			17
+		],
+		"magnification":560,
+		"positive":true,
+		"numerator":2618,
+		"denominator":585,
+		"delta":1.3336210216238819752
+	},
+	{
+		"coefficients":[
+			3,
+			15,
+			17
+		],
+		"magnification":112,
+		"positive":false,
+		"numerator":-18698,
+		"denominator":6435,
+		"delta":0.23592054791768756636
 	},
 	{
 		"coefficients":[
@@ -591,6 +722,19 @@
 		"coefficients":[
 			1,
 			3,
+			5,
+			17
+		],
+		"magnification":224,
+		"positive":false,
+		"numerator":-3892,
+		"denominator":1755,
+		"delta":0.92392883592597557464
+	},
+	{
+		"coefficients":[
+			1,
+			3,
 			7,
 			11
 		],
@@ -625,6 +769,19 @@
 		"numerator":-68,
 		"denominator":77,
 		"delta":2.2584757704729101216
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			17
+		],
+		"magnification":840,
+		"positive":false,
+		"numerator":-42,
+		"denominator":65,
+		"delta":2.4954388074359470846
 	},
 	{
 		"coefficients":[
@@ -669,6 +826,19 @@
 		"coefficients":[
 			1,
 			3,
+			9,
+			17
+		],
+		"magnification":672,
+		"positive":false,
+		"numerator":-308,
+		"denominator":195,
+		"delta":1.5621054741026137513
+	},
+	{
+		"coefficients":[
+			1,
+			3,
 			11,
 			15
 		],
@@ -682,6 +852,19 @@
 		"coefficients":[
 			1,
 			3,
+			11,
+			17
+		],
+		"magnification":1680,
+		"positive":true,
+		"numerator":8,
+		"denominator":117,
+		"delta":3.0732165852137248624
+	},
+	{
+		"coefficients":[
+			1,
+			3,
 			13,
 			15
 		],
@@ -690,6 +873,19 @@
 		"numerator":-21976,
 		"denominator":10395,
 		"delta":1.0274993394964791451
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			13,
+			17
+		],
+		"magnification":1120,
+		"positive":false,
+		"numerator":-2324,
+		"denominator":1755,
+		"delta":1.8173761293732690219
 	},
 	{
 		"coefficients":[
@@ -773,6 +969,19 @@
 		"coefficients":[
 			1,
 			5,
+			7,
+			17
+		],
+		"magnification":480,
+		"positive":true,
+		"numerator":2348,
+		"denominator":585,
+		"delta":0.87208256008542043675
+	},
+	{
+		"coefficients":[
+			1,
+			5,
 			9,
 			11
 		],
@@ -825,6 +1034,19 @@
 		"coefficients":[
 			1,
 			5,
+			11,
+			17
+		],
+		"magnification":1440,
+		"positive":true,
+		"numerator":3956,
+		"denominator":819,
+		"delta":1.6886881766910370424
+	},
+	{
+		"coefficients":[
+			1,
+			5,
 			13,
 			15
 		],
@@ -833,6 +1055,19 @@
 		"numerator":-3908,
 		"denominator":2079,
 		"delta":1.2618427738399134886
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			15,
+			17
+		],
+		"magnification":1120,
+		"positive":true,
+		"numerator":111172,
+		"denominator":27027,
+		"delta":0.97177545977832012965
 	},
 	{
 		"coefficients":[
@@ -890,6 +1125,19 @@
 		"coefficients":[
 			1,
 			7,
+			9,
+			17
+		],
+		"magnification":480,
+		"positive":false,
+		"numerator":-172,
+		"denominator":65,
+		"delta":0.49543880743594708462
+	},
+	{
+		"coefficients":[
+			1,
+			7,
 			11,
 			13
 		],
@@ -928,6 +1176,32 @@
 	{
 		"coefficients":[
 			1,
+			7,
+			13,
+			17
+		],
+		"magnification":1440,
+		"positive":false,
+		"numerator":-1228,
+		"denominator":585,
+		"delta":1.0424473544444940932
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			15,
+			17
+		],
+		"magnification":1680,
+		"positive":true,
+		"numerator":21024,
+		"denominator":5005,
+		"delta":1.0590067470096073609
+	},
+	{
+		"coefficients":[
+			1,
 			9,
 			11,
 			13
@@ -955,6 +1229,19 @@
 		"coefficients":[
 			1,
 			9,
+			11,
+			17
+		],
+		"magnification":480,
+		"positive":true,
+		"numerator":2836,
+		"denominator":819,
+		"delta":0.32116680916966952100
+	},
+	{
+		"coefficients":[
+			1,
+			9,
 			13,
 			15
 		],
@@ -963,6 +1250,58 @@
 		"numerator":-9388,
 		"denominator":3465,
 		"delta":0.43221314421028385895
+	},
+	{
+		"coefficients":[
+			1,
+			9,
+			15,
+			17
+		],
+		"magnification":672,
+		"positive":true,
+		"numerator":10436,
+		"denominator":3003,
+		"delta":0.33359882160168195301
+	},
+	{
+		"coefficients":[
+			1,
+			11,
+			13,
+			17
+		],
+		"magnification":480,
+		"positive":false,
+		"numerator":-796,
+		"denominator":273,
+		"delta":0.22584173783887748755
+	},
+	{
+		"coefficients":[
+			1,
+			11,
+			15,
+			17
+		],
+		"magnification":840,
+		"positive":true,
+		"numerator":31406,
+		"denominator":9009,
+		"delta":0.34447683247969283102
+	},
+	{
+		"coefficients":[
+			1,
+			13,
+			15,
+			17
+		],
+		"magnification":224,
+		"positive":true,
+		"numerator":435124,
+		"denominator":135135,
+		"delta":0.078328166331026682357
 	},
 	{
 		"coefficients":[
@@ -1071,6 +1410,19 @@
 	{
 		"coefficients":[
 			3,
+			4,
+			16,
+			17
+		],
+		"magnification":728,
+		"positive":true,
+		"numerator":7987,
+		"denominator":2340,
+		"delta":0.27165520965807000940
+	},
+	{
+		"coefficients":[
+			3,
 			5,
 			7,
 			9
@@ -1150,6 +1502,19 @@
 		"coefficients":[
 			3,
 			5,
+			9,
+			17
+		],
+		"magnification":672,
+		"positive":true,
+		"numerator":2044,
+		"denominator":585,
+		"delta":0.35242444042730077863
+	},
+	{
+		"coefficients":[
+			3,
+			5,
 			11,
 			13
 		],
@@ -1175,6 +1540,45 @@
 	{
 		"coefficients":[
 			3,
+			5,
+			11,
+			17
+		],
+		"magnification":504,
+		"positive":true,
+		"numerator":1966,
+		"denominator":585,
+		"delta":0.21909110709396744530
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			13,
+			17
+		],
+		"magnification":1120,
+		"positive":true,
+		"numerator":6244,
+		"denominator":1755,
+		"delta":0.41624210424496459630
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			15,
+			17
+		],
+		"magnification":560,
+		"positive":true,
+		"numerator":12832,
+		"denominator":3861,
+		"delta":0.18189866990153025286
+	},
+	{
+		"coefficients":[
+			3,
 			6,
 			10,
 			13
@@ -1184,6 +1588,19 @@
 		"numerator":161,
 		"denominator":45,
 		"delta":0.43618512418798453932
+	},
+	{
+		"coefficients":[
+			3,
+			6,
+			14,
+			17
+		],
+		"magnification":1848,
+		"positive":true,
+		"numerator":2156,
+		"denominator":585,
+		"delta":0.54387743188029223162
 	},
 	{
 		"coefficients":[
@@ -1228,6 +1645,19 @@
 		"coefficients":[
 			3,
 			7,
+			9,
+			17
+		],
+		"magnification":420,
+		"positive":false,
+		"numerator":-581,
+		"denominator":195,
+		"delta":0.16210547410261375128
+	},
+	{
+		"coefficients":[
+			3,
+			7,
 			11,
 			13
 		],
@@ -1241,6 +1671,19 @@
 		"coefficients":[
 			3,
 			7,
+			11,
+			17
+		],
+		"magnification":3360,
+		"positive":true,
+		"numerator":2468,
+		"denominator":585,
+		"delta":1.0772107652136255650
+	},
+	{
+		"coefficients":[
+			3,
+			7,
 			13,
 			15
 		],
@@ -1249,6 +1692,45 @@
 		"numerator":-10372,
 		"denominator":3465,
 		"delta":0.14823046022759987627
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			13,
+			17
+		],
+		"magnification":1680,
+		"positive":false,
+		"numerator":-1568,
+		"denominator":585,
+		"delta":0.46125077324791289658
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			15,
+			17
+		],
+		"magnification":1120,
+		"positive":true,
+		"numerator":7316,
+		"denominator":2145,
+		"delta":0.26912995713281748415
+	},
+	{
+		"coefficients":[
+			3,
+			8,
+			12,
+			17
+		],
+		"magnification":2520,
+		"positive":true,
+		"numerator":8897,
+		"denominator":2340,
+		"delta":0.66054409854695889829
 	},
 	{
 		"coefficients":[
@@ -1280,6 +1762,19 @@
 		"coefficients":[
 			3,
 			9,
+			11,
+			17
+		],
+		"magnification":336,
+		"positive":true,
+		"numerator":1888,
+		"denominator":585,
+		"delta":0.085757773760634111965
+	},
+	{
+		"coefficients":[
+			3,
+			9,
 			13,
 			15
 		],
@@ -1288,6 +1783,32 @@
 		"numerator":-3424,
 		"denominator":1155,
 		"delta":0.17709048908762873630
+	},
+	{
+		"coefficients":[
+			3,
+			9,
+			13,
+			17
+		],
+		"magnification":3360,
+		"positive":true,
+		"numerator":252,
+		"denominator":65,
+		"delta":0.73533042333328368461
+	},
+	{
+		"coefficients":[
+			3,
+			9,
+			15,
+			17
+		],
+		"magnification":504,
+		"positive":true,
+		"numerator":6946,
+		"denominator":2145,
+		"delta":0.096635784638644989976
 	},
 	{
 		"coefficients":[
@@ -1301,6 +1822,32 @@
 		"numerator":-10772,
 		"denominator":3465,
 		"delta":0.032790344787484436154
+	},
+	{
+		"coefficients":[
+			3,
+			11,
+			13,
+			17
+		],
+		"magnification":420,
+		"positive":false,
+		"numerator":-1793,
+		"denominator":585,
+		"delta":0.076635388632528281198
+	},
+	{
+		"coefficients":[
+			3,
+			11,
+			15,
+			17
+		],
+		"magnification":672,
+		"positive":true,
+		"numerator":20908,
+		"denominator":6435,
+		"delta":0.10751379551665586799
 	},
 	{
 		"coefficients":[
@@ -1441,6 +1988,20 @@
 			1,
 			3,
 			5,
+			9,
+			17
+		],
+		"magnification":1344,
+		"positive":false,
+		"numerator":-1484,
+		"denominator":585,
+		"delta":0.60484051683765648633
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
 			11,
 			13
 		],
@@ -1477,6 +2038,34 @@
 		"numerator":-24412,
 		"denominator":10395,
 		"delta":0.79315590515304480171
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			13,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-476,
+		"denominator":195,
+		"delta":0.70056701256415221282
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-68476,
+		"denominator":27027,
+		"delta":0.60797811997525962393
 	},
 	{
 		"coefficients":[
@@ -1525,6 +2114,20 @@
 			1,
 			3,
 			7,
+			9,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":1036,
+		"denominator":195,
+		"delta":2.1712278592307195821
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
 			11,
 			13
 		],
@@ -1553,6 +2156,20 @@
 			1,
 			3,
 			7,
+			11,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-796,
+		"denominator":585,
+		"delta":1.7809088929060325547
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
 			13,
 			15
 		],
@@ -1561,6 +2178,34 @@
 		"numerator":28652,
 		"denominator":3465,
 		"delta":5.1273828153856757370
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			13,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":812,
+		"denominator":585,
+		"delta":1.7535584655556052043
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-9164,
+		"denominator":5005,
+		"delta":1.3106236226207622694
 	},
 	{
 		"coefficients":[
@@ -1581,6 +2226,20 @@
 			1,
 			3,
 			9,
+			11,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-940,
+		"denominator":351,
+		"delta":0.46352997552711517578
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
 			13,
 			15
 		],
@@ -1589,6 +2248,34 @@
 		"numerator":332,
 		"denominator":385,
 		"delta":2.2792549912521309008
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
+			13,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-1148,
+		"denominator":585,
+		"delta":1.1791994911966308453
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
+			15,
+			17
+		],
+		"magnification":4032,
+		"positive":false,
+		"numerator":-37948,
+		"denominator":15015,
+		"delta":0.61425332625046589914
 	},
 	{
 		"coefficients":[
@@ -1603,6 +2290,48 @@
 		"numerator":36452,
 		"denominator":10395,
 		"delta":0.36509325309611344744
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			11,
+			13,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":2404,
+		"denominator":585,
+		"delta":0.96780905581191616325
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			11,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-20732,
+		"denominator":9009,
+		"delta":0.84033835233549198416
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			13,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-392428,
+		"denominator":135135,
+		"delta":0.23762254961968926836
 	},
 	{
 		"coefficients":[
@@ -1631,6 +2360,20 @@
 		"numerator":154,
 		"denominator":45,
 		"delta":0.28062956863242898376
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			6,
+			16,
+			17
+		],
+		"magnification":6600,
+		"positive":true,
+		"numerator":935,
+		"denominator":234,
+		"delta":0.85413384213670248803
 	},
 	{
 		"coefficients":[
@@ -1665,6 +2408,20 @@
 			1,
 			5,
 			7,
+			9,
+			17
+		],
+		"magnification":960,
+		"positive":true,
+		"numerator":1948,
+		"denominator":585,
+		"delta":0.18832187632473667607
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
 			11,
 			13
 		],
@@ -1687,6 +2444,48 @@
 		"numerator":820,
 		"denominator":231,
 		"delta":0.40819089619375654509
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			11,
+			17
+		],
+		"magnification":2880,
+		"positive":true,
+		"numerator":14764,
+		"denominator":4095,
+		"delta":0.46377975178261213394
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			13,
+			17
+		],
+		"magnification":2880,
+		"positive":true,
+		"numerator":2068,
+		"denominator":585,
+		"delta":0.39345008145294180427
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":177428,
+		"denominator":45045,
+		"delta":0.79731288531574566708
 	},
 	{
 		"coefficients":[
@@ -1721,6 +2520,20 @@
 			1,
 			5,
 			9,
+			11,
+			17
+		],
+		"magnification":2880,
+		"positive":false,
+		"numerator":-2276,
+		"denominator":819,
+		"delta":0.36259387459101423968
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
 			13,
 			15
 		],
@@ -1729,6 +2542,20 @@
 		"numerator":2740,
 		"denominator":693,
 		"delta":0.81223130023416058549
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-22684,
+		"denominator":9009,
+		"delta":0.62366613566327531194
 	},
 	{
 		"coefficients":[
@@ -1743,6 +2570,48 @@
 		"numerator":11348,
 		"denominator":3465,
 		"delta":0.13344342144628179761
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			11,
+			13,
+			17
+		],
+		"magnification":2880,
+		"positive":true,
+		"numerator":2780,
+		"denominator":819,
+		"delta":0.25279074079360114493
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-14452,
+		"denominator":9009,
+		"delta":1.5374190494161890649
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			13,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-26996,
+		"denominator":9009,
+		"delta":0.14503365703079667947
 	},
 	{
 		"coefficients":[
@@ -1763,6 +2632,20 @@
 			1,
 			7,
 			9,
+			11,
+			17
+		],
+		"magnification":960,
+		"positive":false,
+		"numerator":-12508,
+		"denominator":4095,
+		"delta":0.087135999133138781808
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
 			13,
 			15
 		],
@@ -1771,6 +2654,104 @@
 		"numerator":-9668,
 		"denominator":3465,
 		"delta":0.35140506340220305087
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
+			13,
+			17
+		],
+		"magnification":2880,
+		"positive":false,
+		"numerator":-1708,
+		"denominator":585,
+		"delta":0.22193453393167358034
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-134756,
+		"denominator":45045,
+		"delta":0.15000646200360165227
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			11,
+			13,
+			17
+		],
+		"magnification":2880,
+		"positive":true,
+		"numerator":13612,
+		"denominator":4095,
+		"delta":0.18246107046393081526
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			11,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-124844,
+		"denominator":45045,
+		"delta":0.37005308205022169889
+	},
+	{
+		"coefficients":[
+			1,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":960,
+		"positive":true,
+		"numerator":2612,
+		"denominator":819,
+		"delta":0.047662535665396016727
+	},
+	{
+		"coefficients":[
+			1,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":30916,
+		"denominator":9009,
+		"delta":0.29008677808963844097
+	},
+	{
+		"coefficients":[
+			1,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":1344,
+		"positive":false,
+		"numerator":-139292,
+		"denominator":45045,
+		"delta":0.049307161304300952970
 	},
 	{
 		"coefficients":[
@@ -1874,6 +2855,34 @@
 		"coefficients":[
 			3,
 			5,
+			7,
+			13,
+			17
+		],
+		"magnification":1344,
+		"positive":true,
+		"numerator":1876,
+		"denominator":585,
+		"delta":0.065244953247813599144
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":true,
+		"numerator":62476,
+		"denominator":19305,
+		"delta":0.094667382670243021574
+	},
+	{
+		"coefficients":[
+			3,
+			5,
 			9,
 			11,
 			13
@@ -1903,6 +2912,20 @@
 			3,
 			5,
 			9,
+			11,
+			17
+		],
+		"magnification":4032,
+		"positive":false,
+		"numerator":-1732,
+		"denominator":585,
+		"delta":0.18090889290603255470
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
 			13,
 			15
 		],
@@ -1911,6 +2934,34 @@
 		"numerator":3772,
 		"denominator":1155,
 		"delta":0.12420821221107256240
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
+			13,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":1988,
+		"denominator":585,
+		"delta":0.25669794470080505214
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-1060,
+		"denominator":429,
+		"delta":0.67073018272732237599
 	},
 	{
 		"coefficients":[
@@ -1925,6 +2976,34 @@
 		"numerator":524,
 		"denominator":165,
 		"delta":0.034164922167782519113
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":4756,
+		"denominator":1287,
+		"delta":0.55382304182590217723
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			13,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-59636,
+		"denominator":19305,
+		"delta":0.052444764441904090573
 	},
 	{
 		"coefficients":[
@@ -1986,6 +3065,20 @@
 		"coefficients":[
 			3,
 			7,
+			9,
+			13,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-5404,
+		"denominator":1755,
+		"delta":0.062390374387514036183
+	},
+	{
+		"coefficients":[
+			3,
+			7,
 			11,
 			13,
 			15
@@ -1995,6 +3088,48 @@
 		"numerator":10972,
 		"denominator":3465,
 		"delta":0.024929712932573283904
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			11,
+			13,
+			17
+		],
+		"magnification":2240,
+		"positive":true,
+		"numerator":1868,
+		"denominator":585,
+		"delta":0.051569739572599923931
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			11,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-19348,
+		"denominator":6435,
+		"delta":0.13491044690758655626
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			13,
+			15,
+			17
+		],
+		"magnification":1344,
+		"positive":false,
+		"numerator":-20068,
+		"denominator":6435,
+		"delta":0.023022335019474668144
 	},
 	{
 		"coefficients":[
@@ -2009,6 +3144,20 @@
 		"numerator":-240,
 		"denominator":77,
 		"delta":0.024709536706676355346
+	},
+	{
+		"coefficients":[
+			3,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":4032,
+		"positive":true,
+		"numerator":2292,
+		"denominator":715,
+		"delta":0.064001752004612355943
 	},
 	{
 		"coefficients":[
@@ -2194,6 +3343,21 @@
 			3,
 			5,
 			7,
+			9,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-5264,
+		"denominator":1755,
+		"delta":0.14216245415959380826
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
 			11,
 			13
 		],
@@ -2224,6 +3388,21 @@
 			3,
 			5,
 			7,
+			11,
+			17
+		],
+		"magnification":4032,
+		"positive":false,
+		"numerator":-8576,
+		"denominator":2925,
+		"delta":0.20962684162398127265
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
 			13,
 			15
 		],
@@ -2232,6 +3411,36 @@
 		"numerator":-50944,
 		"denominator":17325,
 		"delta":0.20110203309917274784
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			13,
+			17
+		],
+		"magnification":5040,
+		"positive":false,
+		"numerator":-1708,
+		"denominator":585,
+		"delta":0.22193453393167358034
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-129952,
+		"denominator":45045,
+		"delta":0.25665536865250830118
 	},
 	{
 		"coefficients":[
@@ -2254,6 +3463,21 @@
 			3,
 			5,
 			9,
+			11,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-272,
+		"denominator":117,
+		"delta":0.81680632880346845214
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			9,
 			13,
 			15
 		],
@@ -2262,6 +3486,36 @@
 		"numerator":-3176,
 		"denominator":1155,
 		"delta":0.39180910380624345491
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			9,
+			13,
+			17
+		],
+		"magnification":13440,
+		"positive":false,
+		"numerator":-1568,
+		"denominator":585,
+		"delta":0.46125077324791289658
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			9,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-2544,
+		"denominator":1001,
+		"delta":0.60013411213125177992
 	},
 	{
 		"coefficients":[
@@ -2277,6 +3531,36 @@
 		"numerator":-10144,
 		"denominator":3465,
 		"delta":0.21403132602846567714
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			11,
+			13,
+			17
+		],
+		"magnification":10080,
+		"positive":false,
+		"numerator":-1672,
+		"denominator":585,
+		"delta":0.28347299547013511880
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-23872,
+		"denominator":9009,
+		"delta":0.49179800379514344381
 	},
 	{
 		"coefficients":[
@@ -2329,6 +3613,21 @@
 			3,
 			7,
 			9,
+			11,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":1952,
+		"denominator":585,
+		"delta":0.19515948316234351367
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			9,
 			13,
 			15
 		],
@@ -2337,6 +3636,36 @@
 		"numerator":12832,
 		"denominator":3465,
 		"delta":0.56172624972911008044
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			9,
+			13,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":2128,
+		"denominator":585,
+		"delta":0.49601418401704436837
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			9,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":53632,
+		"denominator":15015,
+		"delta":0.43030211830497865631
 	},
 	{
 		"coefficients":[
@@ -2357,6 +3686,36 @@
 		"coefficients":[
 			1,
 			3,
+			7,
+			11,
+			13,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-320,
+		"denominator":117,
+		"delta":0.40654991854705819573
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			13,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":154976,
+		"denominator":45045,
+		"delta":0.29887798688084723218
+	},
+	{
+		"coefficients":[
+			1,
+			3,
 			9,
 			11,
 			13,
@@ -2367,6 +3726,66 @@
 		"numerator":-17728,
 		"denominator":5775,
 		"delta":0.071809103806243454913
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-592,
+		"denominator":195,
+		"delta":0.10569521769235734103
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-8608,
+		"denominator":3003,
+		"delta":0.27512578712292677160
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":50672,
+		"denominator":15015,
+		"delta":0.23316592116878152011
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":48128,
+		"denominator":15015,
+		"delta":0.063735351738212089543
 	},
 	{
 		"coefficients":[
@@ -2479,6 +3898,21 @@
 			5,
 			7,
 			9,
+			11,
+			17
+		],
+		"magnification":2880,
+		"positive":true,
+		"numerator":13072,
+		"denominator":4095,
+		"delta":0.050592938595798947130
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
 			13,
 			15
 		],
@@ -2487,6 +3921,36 @@
 		"numerator":2236,
 		"denominator":693,
 		"delta":0.084958572961433312764
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
+			13,
+			17
+		],
+		"magnification":5760,
+		"positive":true,
+		"numerator":1888,
+		"denominator":585,
+		"delta":0.085757773760634111965
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":145424,
+		"denominator":45045,
+		"delta":0.086823374826235177566
 	},
 	{
 		"coefficients":[
@@ -2507,6 +3971,36 @@
 		"coefficients":[
 			1,
 			5,
+			7,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":151136,
+		"denominator":45045,
+		"delta":0.21362990163276198409
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			13,
+			15,
+			17
+		],
+		"magnification":10080,
+		"positive":true,
+		"numerator":145592,
+		"denominator":45045,
+		"delta":0.090552978555838907170
+	},
+	{
+		"coefficients":[
+			1,
+			5,
 			9,
 			11,
 			13,
@@ -2517,6 +4011,141 @@
 		"numerator":-2152,
 		"denominator":693,
 		"delta":0.036253548250687899357
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":5760,
+		"positive":false,
+		"numerator":-2528,
+		"denominator":819,
+		"delta":0.054901566898706547376
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-26800,
+		"denominator":9009,
+		"delta":0.16678967878681843549
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":13440,
+		"positive":true,
+		"numerator":29152,
+		"denominator":9009,
+		"delta":0.094282582285442636773
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":5040,
+		"positive":true,
+		"numerator":28564,
+		"denominator":9009,
+		"delta":0.029014517017377368708
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":2880,
+		"positive":false,
+		"numerator":-12784,
+		"denominator":4095,
+		"delta":0.019736731733871382541
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":false,
+		"numerator":-139712,
+		"denominator":45045,
+		"delta":0.039983151980291628961
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":146096,
+		"denominator":45045,
+		"delta":0.10174178974465009598
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":4032,
+		"positive":true,
+		"numerator":711328,
+		"denominator":225225,
+		"delta":0.016706824709685061016
+	},
+	{
+		"coefficients":[
+			1,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":2240,
+		"positive":true,
+		"numerator":3152,
+		"denominator":1001,
+		"delta":0.0072584952613556126862
 	},
 	{
 		"coefficients":[
@@ -2670,6 +4299,21 @@
 	},
 	{
 		"coefficients":[
+			2,
+			7,
+			10,
+			12,
+			16,
+			17
+		],
+		"magnification":189000,
+		"positive":true,
+		"numerator":1869,
+		"denominator":520,
+		"delta":0.45263811564097599231
+	},
+	{
+		"coefficients":[
 			3,
 			4,
 			5,
@@ -2717,6 +4361,21 @@
 		"coefficients":[
 			3,
 			4,
+			6,
+			14,
+			16,
+			17
+		],
+		"magnification":24024,
+		"positive":true,
+		"numerator":151459,
+		"denominator":46800,
+		"delta":0.094710765213625564956
+	},
+	{
+		"coefficients":[
+			3,
+			4,
 			7,
 			9,
 			12,
@@ -2727,6 +4386,36 @@
 		"numerator":569,
 		"denominator":180,
 		"delta":0.019518457521317872648
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			8,
+			12,
+			16,
+			17
+		],
+		"magnification":32760,
+		"positive":true,
+		"numerator":121877,
+		"denominator":37440,
+		"delta":0.11366909854695889829
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			9,
+			11,
+			16,
+			17
+		],
+		"magnification":21840,
+		"positive":false,
+		"numerator":-25127,
+		"denominator":8190,
+		"delta":0.073582885580025228695
 	},
 	{
 		"coefficients":[
@@ -2792,6 +4481,96 @@
 		"coefficients":[
 			3,
 			5,
+			7,
+			9,
+			13,
+			17
+		],
+		"magnification":3360,
+		"positive":true,
+		"numerator":616,
+		"denominator":195,
+		"delta":0.017381705384565735896
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			9,
+			15,
+			17
+		],
+		"magnification":4032,
+		"positive":true,
+		"numerator":11296,
+		"denominator":3575,
+		"delta":0.018127626130486481817
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			11,
+			13,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":1888,
+		"denominator":585,
+		"delta":0.085757773760634111965
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			11,
+			15,
+			17
+		],
+		"magnification":10080,
+		"positive":true,
+		"numerator":20456,
+		"denominator":6435,
+		"delta":0.037272925275785627116
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			13,
+			15,
+			17
+		],
+		"magnification":6720,
+		"positive":true,
+		"numerator":6784,
+		"denominator":2145,
+		"delta":0.021111309114169465500
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			8,
+			12,
+			15,
+			17
+		],
+		"magnification":15120,
+		"positive":true,
+		"numerator":287093,
+		"denominator":90090,
+		"delta":0.045142833145693497024
+	},
+	{
+		"coefficients":[
+			3,
+			5,
 			9,
 			11,
 			13,
@@ -2802,6 +4581,66 @@
 		"numerator":-3616,
 		"denominator":1155,
 		"delta":0.010856722853862502532
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":5040,
+		"positive":false,
+		"numerator":-1828,
+		"denominator":585,
+		"delta":0.016806328803468452138
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-3968,
+		"denominator":1287,
+		"delta":0.058453570450710099380
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":10080,
+		"positive":true,
+		"numerator":2264,
+		"denominator":715,
+		"delta":0.024840912843773195104
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":4032,
+		"positive":true,
+		"numerator":101344,
+		"denominator":32175,
+		"delta":0.0081820161848765362071
 	},
 	{
 		"coefficients":[
@@ -2821,6 +4660,66 @@
 	{
 		"coefficients":[
 			3,
+			6,
+			7,
+			13,
+			14,
+			17
+		],
+		"magnification":6160,
+		"positive":true,
+		"numerator":616,
+		"denominator":195,
+		"delta":0.017381705384565735896
+	},
+	{
+		"coefficients":[
+			3,
+			6,
+			8,
+			12,
+			14,
+			17
+		],
+		"magnification":83160,
+		"positive":true,
+		"numerator":31493,
+		"denominator":9360,
+		"delta":0.22304409854695889829
+	},
+	{
+		"coefficients":[
+			3,
+			6,
+			9,
+			11,
+			14,
+			17
+		],
+		"magnification":6160,
+		"positive":false,
+		"numerator":-16456,
+		"denominator":5265,
+		"delta":0.016046594710401025737
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			8,
+			12,
+			13,
+			17
+		],
+		"magnification":5040,
+		"positive":false,
+		"numerator":-3661,
+		"denominator":1170,
+		"delta":0.012532824529964178634
+	},
+	{
+		"coefficients":[
+			3,
 			7,
 			9,
 			11,
@@ -2832,6 +4731,66 @@
 		"numerator":-1208,
 		"denominator":385,
 		"delta":0.0039303159274555761250
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":2240,
+		"positive":false,
+		"numerator":-5504,
+		"denominator":1755,
+		"delta":0.0054103174074570561265
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":5040,
+		"positive":false,
+		"numerator":-6716,
+		"denominator":2145,
+		"delta":0.010590322587462236132
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":2272,
+		"denominator":715,
+		"delta":0.036029724032584383915
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":3360,
+		"positive":true,
+		"numerator":20248,
+		"denominator":6435,
+		"delta":0.0049496929525533038839
 	},
 	{
 		"coefficients":[
@@ -3018,6 +4977,38 @@
 	{
 		"coefficients":[
 			1,
+			2,
+			9,
+			10,
+			14,
+			15,
+			17
+		],
+		"magnification":43680,
+		"positive":false,
+		"numerator":-31937,
+		"denominator":10395,
+		"delta":0.069250181247320895990
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			4,
+			8,
+			9,
+			16,
+			17
+		],
+		"magnification":43680,
+		"positive":false,
+		"numerator":-41461,
+		"denominator":14040,
+		"delta":0.18852997552711517578
+	},
+	{
+		"coefficients":[
+			1,
 			3,
 			5,
 			6,
@@ -3070,6 +5061,22 @@
 			5,
 			7,
 			9,
+			11,
+			17
+		],
+		"magnification":10080,
+		"positive":false,
+		"numerator":-1804,
+		"denominator":585,
+		"delta":0.057831969829109477779
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			9,
 			13,
 			15
 		],
@@ -3078,6 +5085,38 @@
 		"numerator":-31888,
 		"denominator":10395,
 		"delta":0.073963985961125609795
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			9,
+			13,
+			17
+		],
+		"magnification":16128,
+		"positive":false,
+		"numerator":-1792,
+		"denominator":585,
+		"delta":0.078344790341929990599
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			9,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-45896,
+		"denominator":15015,
+		"delta":0.084915996913136561806
 	},
 	{
 		"coefficients":[
@@ -3100,6 +5139,54 @@
 			1,
 			3,
 			5,
+			7,
+			11,
+			13,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-1744,
+		"denominator":585,
+		"delta":0.16039607239321204188
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			11,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-135248,
+		"denominator":45045,
+		"delta":0.13908405108119072986
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-136208,
+		"denominator":45045,
+		"delta":0.11777202976916941784
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
 			9,
 			11,
 			13,
@@ -3110,6 +5197,54 @@
 		"numerator":1264,
 		"denominator":385,
 		"delta":0.14152422952708987842
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":80640,
+		"positive":true,
+		"numerator":1984,
+		"denominator":585,
+		"delta":0.24986033786319821453
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":80640,
+		"positive":false,
+		"numerator":-44416,
+		"denominator":15015,
+		"delta":0.18348409548123512990
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-138128,
+		"denominator":45045,
+		"delta":0.075147987145126793796
 	},
 	{
 		"coefficients":[
@@ -3126,6 +5261,86 @@
 		"numerator":33008,
 		"denominator":10395,
 		"delta":0.033780121782982134313
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":1864,
+		"denominator":585,
+		"delta":0.044732132734993086324
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":true,
+		"numerator":16112,
+		"denominator":5005,
+		"delta":0.077588165591025942357
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-139088,
+		"denominator":45045,
+		"delta":0.053835965833105481775
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			8,
+			10,
+			11,
+			15,
+			17
+		],
+		"magnification":60480,
+		"positive":true,
+		"numerator":203908,
+		"denominator":63063,
+		"delta":0.091808865526011591628
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":false,
+		"numerator":-46856,
+		"denominator":15015,
+		"delta":0.020979932977072625742
 	},
 	{
 		"coefficients":[
@@ -3147,6 +5362,38 @@
 		"coefficients":[
 			1,
 			5,
+			6,
+			7,
+			15,
+			16,
+			17
+		],
+		"magnification":3326400,
+		"positive":true,
+		"numerator":648,
+		"denominator":91,
+		"delta":3.9792864672893276407
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			6,
+			9,
+			13,
+			16,
+			17
+		],
+		"magnification":138600,
+		"positive":true,
+		"numerator":385,
+		"denominator":117,
+		"delta":0.14900563700849735983
+	},
+	{
+		"coefficients":[
+			1,
+			5,
 			7,
 			9,
 			11,
@@ -3158,6 +5405,102 @@
 		"numerator":10928,
 		"denominator":3465,
 		"delta":0.012231300234160585491
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":11520,
+		"positive":true,
+		"numerator":12928,
+		"denominator":4095,
+		"delta":0.015428103430963782294
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":20160,
+		"positive":true,
+		"numerator":142568,
+		"denominator":45045,
+		"delta":0.023420111422971774302
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":80640,
+		"positive":true,
+		"numerator":145088,
+		"denominator":45045,
+		"delta":0.079364167367027718358
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-140048,
+		"denominator":45045,
+		"delta":0.032523944521084169754
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":16128,
+		"positive":false,
+		"numerator":-141056,
+		"denominator":45045,
+		"delta":0.010146322143461792131
+	},
+	{
+		"coefficients":[
+			1,
+			7,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":10080,
+		"positive":false,
+		"numerator":-141308,
+		"denominator":45045,
+		"delta":0.0045519165490561977256
 	},
 	{
 		"coefficients":[
@@ -3174,6 +5517,38 @@
 		"numerator":-47,
 		"denominator":15,
 		"delta":0.0082593202564599051293
+	},
+	{
+		"coefficients":[
+			2,
+			3,
+			6,
+			9,
+			13,
+			14,
+			17
+		],
+		"magnification":110880,
+		"positive":false,
+		"numerator":-1771,
+		"denominator":585,
+		"delta":0.11424222623936588804
+	},
+	{
+		"coefficients":[
+			2,
+			5,
+			8,
+			10,
+			13,
+			16,
+			17
+		],
+		"magnification":124740,
+		"positive":false,
+		"numerator":-23177,
+		"denominator":7488,
+		"delta":0.046373636495776144446
 	},
 	{
 		"coefficients":[
@@ -3259,6 +5634,70 @@
 		"coefficients":[
 			3,
 			5,
+			7,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":8064,
+		"positive":true,
+		"numerator":368,
+		"denominator":117,
+		"delta":0.0037064917093520606827
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":13440,
+		"positive":true,
+		"numerator":60752,
+		"denominator":19305,
+		"delta":0.0053640933669537182843
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":true,
+		"numerator":2256,
+		"denominator":715,
+		"delta":0.013652101654962006293
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-20144,
+		"denominator":6435,
+		"delta":0.011211923209062857732
+	},
+	{
+		"coefficients":[
+			3,
+			5,
 			8,
 			10,
 			11,
@@ -3270,6 +5709,38 @@
 		"numerator":54476,
 		"denominator":17325,
 		"delta":0.0027652107680711194017
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":13440,
+		"positive":false,
+		"numerator":-60592,
+		"denominator":19305,
+		"delta":0.0029239149210545697240
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":8064,
+		"positive":false,
+		"numerator":-6736,
+		"denominator":2145,
+		"delta":0.0012663132634529121223
 	},
 	{
 		"coefficients":[
@@ -3319,6 +5790,23 @@
 		"numerator":451,
 		"denominator":140,
 		"delta":0.079835917838778190109
+	},
+	{
+		"coefficients":[
+			1,
+			2,
+			3,
+			5,
+			6,
+			9,
+			13,
+			17
+		],
+		"magnification":40320,
+		"positive":true,
+		"numerator":1904,
+		"denominator":585,
+		"delta":0.11310820111106146239
 	},
 	{
 		"coefficients":[
@@ -3421,6 +5909,23 @@
 		"numerator":-129597,
 		"denominator":43120,
 		"delta":0.13609636416493238503
+	},
+	{
+		"coefficients":[
+			1,
+			2,
+			5,
+			6,
+			8,
+			13,
+			16,
+			17
+		],
+		"magnification":311850,
+		"positive":false,
+		"numerator":-44275,
+		"denominator":14976,
+		"delta":0.18519575188039152906
 	},
 	{
 		"coefficients":[
@@ -3562,6 +6067,74 @@
 		"coefficients":[
 			1,
 			3,
+			5,
+			7,
+			9,
+			11,
+			13,
+			17
+		],
+		"magnification":53760,
+		"positive":false,
+		"numerator":-608,
+		"denominator":195,
+		"delta":0.023643935641075289745
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			9,
+			11,
+			15,
+			17
+		],
+		"magnification":80640,
+		"positive":false,
+		"numerator":-140128,
+		"denominator":45045,
+		"delta":0.030747942745082393752
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			9,
+			13,
+			15,
+			17
+		],
+		"magnification":161280,
+		"positive":false,
+		"numerator":-139168,
+		"denominator":45045,
+		"delta":0.052059964057103705773
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":161280,
+		"positive":true,
+		"numerator":143008,
+		"denominator":45045,
+		"delta":0.033188121190981542312
+	},
+	{
+		"coefficients":[
+			1,
+			3,
 			6,
 			7,
 			9,
@@ -3574,6 +6147,23 @@
 		"numerator":-25304,
 		"denominator":8085,
 		"delta":0.011846209557634920590
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			7,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":80640,
+		"positive":true,
+		"numerator":142048,
+		"denominator":45045,
+		"delta":0.011876099878960230291
 	},
 	{
 		"coefficients":[
@@ -3625,6 +6215,40 @@
 		"numerator":-1208,
 		"denominator":385,
 		"delta":0.0039303159274555761250
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			7,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":53760,
+		"positive":true,
+		"numerator":141728,
+		"denominator":45045,
+		"delta":0.0047720927749531262837
+	},
+	{
+		"coefficients":[
+			1,
+			5,
+			9,
+			12,
+			13,
+			15,
+			16,
+			17
+		],
+		"magnification":40320,
+		"positive":false,
+		"numerator":-141448,
+		"denominator":45045,
+		"delta":0.0014439134410530897225
 	},
 	{
 		"coefficients":[
@@ -3783,6 +6407,40 @@
 		"coefficients":[
 			3,
 			4,
+			5,
+			8,
+			12,
+			15,
+			16,
+			17
+		],
+		"magnification":308880,
+		"positive":false,
+		"numerator":-31561757,
+		"denominator":10090080,
+		"delta":0.013593965769676846918
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			5,
+			9,
+			11,
+			15,
+			16,
+			17
+		],
+		"magnification":2882880,
+		"positive":true,
+		"numerator":147058,
+		"denominator":45045,
+		"delta":0.12309821110107145240
+	},
+	{
+		"coefficients":[
+			3,
+			4,
 			6,
 			7,
 			9,
@@ -3795,6 +6453,91 @@
 		"numerator":-2261,
 		"denominator":720,
 		"delta":0.0013148758120154606849
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			6,
+			8,
+			12,
+			14,
+			16,
+			17
+		],
+		"magnification":1081080,
+		"positive":true,
+		"numerator":476861,
+		"denominator":149760,
+		"delta":0.042575348546958898289
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			6,
+			9,
+			11,
+			14,
+			16,
+			17
+		],
+		"magnification":171600,
+		"positive":true,
+		"numerator":2165801,
+		"denominator":687960,
+		"delta":0.0065569481312370539962
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			7,
+			8,
+			12,
+			13,
+			16,
+			17
+		],
+		"magnification":117936,
+		"positive":true,
+		"numerator":58891,
+		"denominator":18720,
+		"delta":0.0042940985469588982895
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			7,
+			9,
+			11,
+			13,
+			16,
+			17
+		],
+		"magnification":67392,
+		"positive":true,
+		"numerator":90122,
+		"denominator":28665,
+		"delta":0.0023808332408364493099
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			8,
+			9,
+			11,
+			12,
+			16,
+			17
+		],
+		"magnification":39312,
+		"positive":true,
+		"numerator":411847,
+		"denominator":131040,
+		"delta":0.0013179080707684220990
 	},
 	{
 		"coefficients":[
@@ -3812,6 +6555,142 @@
 		"numerator":-424,
 		"denominator":135,
 		"delta":0.00085191284905249772190
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			6,
+			7,
+			13,
+			14,
+			15,
+			17
+		],
+		"magnification":665280,
+		"positive":false,
+		"numerator":-608,
+		"denominator":195,
+		"delta":0.023643935641075289745
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			6,
+			8,
+			12,
+			14,
+			15,
+			17
+		],
+		"magnification":166320,
+		"positive":true,
+		"numerator":309307,
+		"denominator":98280,
+		"delta":0.0056092186120789634096
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			8,
+			12,
+			13,
+			15,
+			17
+		],
+		"magnification":60480,
+		"positive":true,
+		"numerator":141598,
+		"denominator":45045,
+		"delta":0.0018860898889502402808
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":40320,
+		"positive":true,
+		"numerator":20224,
+		"denominator":6435,
+		"delta":0.0012200892229495742802
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			8,
+			9,
+			11,
+			12,
+			15,
+			17
+		],
+		"magnification":25920,
+		"positive":true,
+		"numerator":990826,
+		"denominator":315315,
+		"delta":0.00074437446152052713684
+	},
+	{
+		"coefficients":[
+			3,
+			6,
+			7,
+			8,
+			12,
+			13,
+			14,
+			17
+		],
+		"magnification":33264,
+		"positive":true,
+		"numerator":14707,
+		"denominator":4680,
+		"delta":0.00092871393157428290488
+	},
+	{
+		"coefficients":[
+			3,
+			6,
+			7,
+			9,
+			11,
+			13,
+			14,
+			17
+		],
+		"magnification":24640,
+		"positive":true,
+		"numerator":16544,
+		"denominator":5265,
+		"delta":0.00066755533708235507962
+	},
+	{
+		"coefficients":[
+			3,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			17
+		],
+		"magnification":12096,
+		"positive":true,
+		"numerator":1838,
+		"denominator":585,
+		"delta":0.00028768829054864187924
 	},
 	{
 		"coefficients":[
@@ -3935,6 +6814,60 @@
 	{
 		"coefficients":[
 			1,
+			3,
+			5,
+			6,
+			7,
+			11,
+			12,
+			13,
+			17
+		],
+		"magnification":1330560,
+		"positive":false,
+		"numerator":-2992,
+		"denominator":975,
+		"delta":0.072874704871844520514
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			7,
+			9,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":322560,
+		"positive":false,
+		"numerator":-141088,
+		"denominator":45045,
+		"delta":0.0094359214330610817305
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			5,
+			8,
+			10,
+			11,
+			13,
+			15,
+			17
+		],
+		"magnification":362880,
+		"positive":false,
+		"numerator":-4939768,
+		"denominator":1576575,
+		"delta":0.0083652460766714396266
+	},
+	{
+		"coefficients":[
+			1,
 			2,
 			3,
 			4,
@@ -4007,6 +6940,25 @@
 		"numerator":77753,
 		"denominator":24640,
 		"delta":0.013967411345271696602
+	},
+	{
+		"coefficients":[
+			1,
+			2,
+			5,
+			6,
+			7,
+			9,
+			10,
+			11,
+			13,
+			17
+		],
+		"magnification":518400,
+		"positive":true,
+		"numerator":1432,
+		"denominator":455,
+		"delta":0.0056600936629540142846
 	},
 	{
 		"coefficients":[
@@ -4105,6 +7057,25 @@
 	},
 	{
 		"coefficients":[
+			1,
+			5,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			16,
+			17
+		],
+		"magnification":518400,
+		"positive":false,
+		"numerator":-12863,
+		"denominator":4095,
+		"delta":0.00044491244205209072150
+	},
+	{
+		"coefficients":[
 			2,
 			3,
 			4,
@@ -4200,6 +7171,158 @@
 	},
 	{
 		"coefficients":[
+			3,
+			4,
+			5,
+			6,
+			7,
+			13,
+			14,
+			15,
+			16,
+			17
+		],
+		"magnification":3706560,
+		"positive":false,
+		"numerator":-56569,
+		"denominator":18018,
+		"delta":0.0020100140071536558231
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			5,
+			6,
+			8,
+			12,
+			14,
+			15,
+			16,
+			17
+		],
+		"magnification":2162160,
+		"positive":false,
+		"numerator":-10864355,
+		"denominator":3459456,
+		"delta":0.0011118959215355702050
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			6,
+			7,
+			8,
+			12,
+			13,
+			14,
+			16,
+			17
+		],
+		"magnification":926640,
+		"positive":false,
+		"numerator":-235213,
+		"denominator":74880,
+		"delta":0.00039340145304110171051
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			16,
+			17
+		],
+		"magnification":471744,
+		"positive":false,
+		"numerator":-102913,
+		"denominator":32760,
+		"delta":0.00017018716732681599622
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			6,
+			7,
+			8,
+			12,
+			13,
+			14,
+			15,
+			17
+		],
+		"magnification":665280,
+		"positive":false,
+		"numerator":-77183,
+		"denominator":24570,
+		"delta":0.00024141223855188722129
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			6,
+			7,
+			9,
+			11,
+			13,
+			14,
+			15,
+			17
+		],
+		"magnification":570240,
+		"positive":false,
+		"numerator":-4288,
+		"denominator":1365,
+		"delta":0.00020071219785184652125
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			15,
+			17
+		],
+		"magnification":362880,
+		"positive":false,
+		"numerator":-141508,
+		"denominator":45045,
+		"delta":0.00011191210905175772116
+	},
+	{
+		"coefficients":[
+			3,
+			6,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			14,
+			17
+		],
+		"magnification":285120,
+		"positive":false,
+		"numerator":-25729,
+		"denominator":8190,
+		"delta":0.000078612075751724421129
+	},
+	{
+		"coefficients":[
 			4,
 			5,
 			6,
@@ -4273,6 +7396,46 @@
 		"numerator":-126667,
 		"denominator":40320,
 		"delta":0.000049994859634508303913
+	},
+	{
+		"coefficients":[
+			1,
+			2,
+			5,
+			6,
+			7,
+			9,
+			10,
+			13,
+			14,
+			15,
+			17
+		],
+		"magnification":5241600,
+		"positive":true,
+		"numerator":3632,
+		"denominator":1155,
+		"delta":0.0029960909989513502819
+	},
+	{
+		"coefficients":[
+			1,
+			3,
+			4,
+			5,
+			8,
+			9,
+			11,
+			12,
+			13,
+			16,
+			17
+		],
+		"magnification":5241600,
+		"positive":true,
+		"numerator":25751,
+		"denominator":8190,
+		"delta":0.0026075906104509617816
 	},
 	{
 		"coefficients":[
@@ -4402,6 +7565,111 @@
 	},
 	{
 		"coefficients":[
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17
+		],
+		"magnification":25945920,
+		"positive":true,
+		"numerator":4528627,
+		"denominator":1441440,
+		"delta":0.00014546939832974966034
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			5,
+			6,
+			7,
+			9,
+			11,
+			13,
+			14,
+			15,
+			16,
+			17
+		],
+		"magnification":23587200,
+		"positive":true,
+		"numerator":1556707,
+		"denominator":495495,
+		"delta":0.00012825176747575516999
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			5,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			15,
+			16,
+			17
+		],
+		"magnification":17297280,
+		"positive":true,
+		"numerator":188689,
+		"denominator":60060,
+		"delta":0.000082338085198436529032
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			6,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			14,
+			16,
+			17
+		],
+		"magnification":14414400,
+		"positive":true,
+		"numerator":1235047,
+		"denominator":393120,
+		"delta":0.000061294314154665485261
+	},
+	{
+		"coefficients":[
+			3,
+			5,
+			6,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			14,
+			15,
+			17
+		],
+		"magnification":11975040,
+		"positive":true,
+		"numerator":2573,
+		"denominator":819,
+		"delta":0.000043488046348397678993
+	},
+	{
+		"coefficients":[
 			4,
 			5,
 			6,
@@ -4443,5 +7711,52 @@
 		"numerator":87217,
 		"denominator":27720,
 		"delta":0.0047637677666281179587
+	},
+	{
+		"coefficients":[
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17
+		],
+		"magnification":778377600,
+		"positive":false,
+		"numerator":-2264177,
+		"denominator":720720,
+		"delta":0.000043924541064189733595
+	},
+	{
+		"coefficients":[
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			8,
+			9,
+			10,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17
+		],
+		"magnification":10897286400,
+		"positive":true,
+		"numerator":4531819,
+		"denominator":1441440,
+		"delta":0.0023599216127819641126
 	}
 ]
