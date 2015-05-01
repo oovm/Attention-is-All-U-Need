@@ -8,19 +8,15 @@ export const sidebar_cn: SidebarConfig = {
             children: [
                 {
                     text: "4k + i 型逼近",
-                    link: `/cn/π-family/4k+i.md`,
+                    link: "/cn/π-family/4k+i.md",
                 },
                 {
                     text: "十进制逼近",
-                    link: "/en/literal/number.md",
+                    link: "/cn/literal/approx10.md",
                 },
                 {
                     text: "最佳逼近",
-                    link: "/en/literal/string.md",
-                },
-                {
-                    text: "String Templated",
-                    link: "/en/literal/template.md",
+                    link: "/cn/literal/approx-best.md",
                 },
             ]
         },
@@ -30,16 +26,16 @@ export const sidebar_cn: SidebarConfig = {
             children: [
                 {
                     text: "十进制逼近",
-                    link: `/cn/e-family/e-approx10.md`,
+                    link: `/cn/e-family/approx10.md`,
                 },
                 {
                     text: "最佳逼近",
-                    link: `/cn/e-family/e-approx10.md`,
+                    link: `/cn/e-family/approx10-best.md`,
                 },
             ]
         },
         {
-            text: 'Appendix',
+            text: '附录',
             collapsible: false,
             children: []
         }
