@@ -1,5 +1,5 @@
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{1,5,15}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{1,5,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -9,7 +9,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,13,15}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -19,7 +19,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,5,11}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,5,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -29,7 +29,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3326400/Product[4k+i,{i,{1,5,6,7,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][3326400/Product[4k+i,{i,{1,5,6,7,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -39,27 +39,27 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][8/Product[4k+i,{i,{1,3}}],{k,1,Infinity}]
+Inactive[Sum][8/Product[4k+i,{i,{1,3}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
-&\sum_{k=0}^∞\frac{8}{(4k+1)(4k+3)}=\frac{0}{1}-π\\
+&\sum_{k=0}^∞\frac{8}{(4k+1)(4k+3)}=π\\
 &Δ=3.141592653589793\\
 \end{aligned}
 $$
 
 ```wolfram
-Inactive[Sum][24/Product[4k+i,{i,{1,2,4}}],{k,1,Infinity}]
+Inactive[Sum][24/Product[4k+i,{i,{1,2,4}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
-&\sum_{k=0}^∞\frac{24}{(4k+1)(4k+2)(4k+4)}=\frac{0}{1}-π\\
+&\sum_{k=0}^∞\frac{24}{(4k+1)(4k+2)(4k+4)}=π\\
 &Δ=3.141592653589793\\
 \end{aligned}
 $$
 
 ```wolfram
-Inactive[Sum][2520/Product[4k+i,{i,{1,6,10,15}}],{k,1,Infinity}]
+Inactive[Sum][2520/Product[4k+i,{i,{1,6,10,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -69,7 +69,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1680/Product[4k+i,{i,{1,3,11,17}}],{k,1,Infinity}]
+Inactive[Sum][1680/Product[4k+i,{i,{1,3,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -79,7 +79,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{1,7,11,15}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{1,7,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -89,7 +89,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][336/Product[4k+i,{i,{1,9,15}}],{k,1,Infinity}]
+Inactive[Sum][336/Product[4k+i,{i,{1,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -99,7 +99,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2882880/Product[4k+i,{i,{1,2,3,7,9,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][2882880/Product[4k+i,{i,{1,2,3,7,9,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -109,7 +109,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][720/Product[4k+i,{i,{1,3,7,13}}],{k,1,Infinity}]
+Inactive[Sum][720/Product[4k+i,{i,{1,3,7,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -119,7 +119,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1848/Product[4k+i,{i,{1,4,12,15}}],{k,1,Infinity}]
+Inactive[Sum][1848/Product[4k+i,{i,{1,4,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -129,7 +129,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][112/Product[4k+i,{i,{1,3,15}}],{k,1,Infinity}]
+Inactive[Sum][112/Product[4k+i,{i,{1,3,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -139,7 +139,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{1,3,11}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{1,3,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -149,7 +149,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,7,11}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,7,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -159,7 +159,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{1,4,8,11}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{1,4,8,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -169,7 +169,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][336/Product[4k+i,{i,{1,7,15}}],{k,1,Infinity}]
+Inactive[Sum][336/Product[4k+i,{i,{1,7,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -179,7 +179,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{1,3,7,17}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{1,3,7,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -189,7 +189,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{1,3,7}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{1,3,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -199,7 +199,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][112/Product[4k+i,{i,{1,3,17}}],{k,1,Infinity}]
+Inactive[Sum][112/Product[4k+i,{i,{1,3,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -209,7 +209,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1120/Product[4k+i,{i,{1,3,11,15}}],{k,1,Infinity}]
+Inactive[Sum][1120/Product[4k+i,{i,{1,3,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -219,7 +219,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][56/Product[4k+i,{i,{3,17}}],{k,1,Infinity}]
+Inactive[Sum][56/Product[4k+i,{i,{3,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -229,7 +229,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,7,17}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,7,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -239,7 +239,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -249,7 +249,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{1,3,13}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{1,3,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -259,7 +259,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][672/Product[4k+i,{i,{1,3,7,15}}],{k,1,Infinity}]
+Inactive[Sum][672/Product[4k+i,{i,{1,3,7,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -269,7 +269,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{3,7,17}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{3,7,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -279,7 +279,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1680/Product[4k+i,{i,{1,5,11,15}}],{k,1,Infinity}]
+Inactive[Sum][1680/Product[4k+i,{i,{1,5,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -289,7 +289,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,3,7,11}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,3,7,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -299,7 +299,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,9,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -309,7 +309,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{1,11,15}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{1,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -319,7 +319,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40/Product[4k+i,{i,{3,13}}],{k,1,Infinity}]
+Inactive[Sum][40/Product[4k+i,{i,{3,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -329,7 +329,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,11,15}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -339,7 +339,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][83160/Product[4k+i,{i,{1,4,6,10,12,15}}],{k,1,Infinity}]
+Inactive[Sum][83160/Product[4k+i,{i,{1,4,6,10,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -349,7 +349,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{1,3,9}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{1,3,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -359,7 +359,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][144/Product[4k+i,{i,{1,7,13}}],{k,1,Infinity}]
+Inactive[Sum][144/Product[4k+i,{i,{1,7,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -369,7 +369,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][728/Product[4k+i,{i,{1,2,14,15}}],{k,1,Infinity}]
+Inactive[Sum][728/Product[4k+i,{i,{1,2,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -379,7 +379,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1120/Product[4k+i,{i,{1,3,13,17}}],{k,1,Infinity}]
+Inactive[Sum][1120/Product[4k+i,{i,{1,3,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -389,7 +389,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24/Product[4k+i,{i,{1,7}}],{k,1,Infinity}]
+Inactive[Sum][24/Product[4k+i,{i,{1,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -399,7 +399,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,11,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -409,7 +409,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,13,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -419,7 +419,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][360/Product[4k+i,{i,{1,2,10,11}}],{k,1,Infinity}]
+Inactive[Sum][360/Product[4k+i,{i,{1,2,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -429,7 +429,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1440/Product[4k+i,{i,{1,5,11,17}}],{k,1,Infinity}]
+Inactive[Sum][1440/Product[4k+i,{i,{1,5,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -439,7 +439,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24/Product[4k+i,{i,{3,9}}],{k,1,Infinity}]
+Inactive[Sum][24/Product[4k+i,{i,{3,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -449,7 +449,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,11,17}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -459,7 +459,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][672/Product[4k+i,{i,{1,3,9,17}}],{k,1,Infinity}]
+Inactive[Sum][672/Product[4k+i,{i,{1,3,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -469,7 +469,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,5,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,5,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -479,7 +479,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{1,5,7}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{1,5,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -489,7 +489,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{1,2,6,7}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{1,2,6,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -499,7 +499,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,3,7,9,15}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,3,7,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -509,7 +509,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,3,9,13}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,3,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -519,7 +519,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][216/Product[4k+i,{i,{3,6,12}}],{k,1,Infinity}]
+Inactive[Sum][216/Product[4k+i,{i,{3,6,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -529,7 +529,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{3,13,17}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{3,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -539,7 +539,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][32760/Product[4k+i,{i,{1,2,6,10,14,15}}],{k,1,Infinity}]
+Inactive[Sum][32760/Product[4k+i,{i,{1,2,6,10,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -549,7 +549,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][504/Product[4k+i,{i,{1,3,9,15}}],{k,1,Infinity}]
+Inactive[Sum][504/Product[4k+i,{i,{1,3,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -559,7 +559,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -569,7 +569,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1120/Product[4k+i,{i,{1,5,13,15}}],{k,1,Infinity}]
+Inactive[Sum][1120/Product[4k+i,{i,{1,5,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -579,7 +579,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40/Product[4k+i,{i,{1,11}}],{k,1,Infinity}]
+Inactive[Sum][40/Product[4k+i,{i,{1,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -589,7 +589,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{3,7,13}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{3,7,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -599,7 +599,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,3,7,9,13}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,3,7,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -609,7 +609,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24024/Product[4k+i,{i,{1,2,4,12,14,15}}],{k,1,Infinity}]
+Inactive[Sum][24024/Product[4k+i,{i,{1,2,4,12,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -619,7 +619,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12600/Product[4k+i,{i,{1,6,9,13,16}}],{k,1,Infinity}]
+Inactive[Sum][12600/Product[4k+i,{i,{1,6,9,13,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -629,7 +629,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -639,7 +639,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][16/Product[4k+i,{i,{1,3,5}}],{k,1,Infinity}]
+Inactive[Sum][16/Product[4k+i,{i,{1,3,5}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -649,7 +649,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][336/Product[4k+i,{i,{3,9,17}}],{k,1,Infinity}]
+Inactive[Sum][336/Product[4k+i,{i,{3,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -659,7 +659,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][7560/Product[4k+i,{i,{1,2,4,8,10,11}}],{k,1,Infinity}]
+Inactive[Sum][7560/Product[4k+i,{i,{1,2,4,8,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -669,7 +669,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{3,7,11,17}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{3,7,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -679,7 +679,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1680/Product[4k+i,{i,{1,7,15,17}}],{k,1,Infinity}]
+Inactive[Sum][1680/Product[4k+i,{i,{1,7,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -689,7 +689,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,5,9,11}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,5,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -699,7 +699,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1440/Product[4k+i,{i,{1,7,13,17}}],{k,1,Infinity}]
+Inactive[Sum][1440/Product[4k+i,{i,{1,7,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -709,7 +709,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{1,3,13,15}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{1,3,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -719,7 +719,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][600/Product[4k+i,{i,{1,6,16}}],{k,1,Infinity}]
+Inactive[Sum][600/Product[4k+i,{i,{1,6,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -729,7 +729,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,3,7,11,13}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,3,7,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -739,7 +739,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{3,9,13}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{3,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -749,7 +749,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1120/Product[4k+i,{i,{1,5,15,17}}],{k,1,Infinity}]
+Inactive[Sum][1120/Product[4k+i,{i,{1,5,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -759,7 +759,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -769,7 +769,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{1,9,11}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{1,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -779,7 +779,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -789,7 +789,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][224/Product[4k+i,{i,{1,3,5,17}}],{k,1,Infinity}]
+Inactive[Sum][224/Product[4k+i,{i,{1,3,5,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -799,7 +799,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][336/Product[4k+i,{i,{3,11,17}}],{k,1,Infinity}]
+Inactive[Sum][336/Product[4k+i,{i,{3,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -809,7 +809,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1081080/Product[4k+i,{i,{1,2,4,6,10,12,14,15}}],{k,1,Infinity}]
+Inactive[Sum][1081080/Product[4k+i,{i,{1,2,4,6,10,12,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -819,7 +819,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{1,7,9}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{1,7,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -829,7 +829,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][56/Product[4k+i,{i,{1,15}}],{k,1,Infinity}]
+Inactive[Sum][56/Product[4k+i,{i,{1,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -839,7 +839,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{1,5,9,15}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{1,5,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -849,7 +849,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,5,7,17}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,5,7,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -859,7 +859,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][420/Product[4k+i,{i,{1,5,7,15}}],{k,1,Infinity}]
+Inactive[Sum][420/Product[4k+i,{i,{1,5,7,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -869,7 +869,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][160/Product[4k+i,{i,{1,3,5,13}}],{k,1,Infinity}]
+Inactive[Sum][160/Product[4k+i,{i,{1,3,5,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -879,7 +879,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][8/Product[4k+i,{i,{3,5}}],{k,1,Infinity}]
+Inactive[Sum][8/Product[4k+i,{i,{3,5}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -889,7 +889,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{1,2,3,9,10,11}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{1,2,3,9,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -899,7 +899,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,3,9,11}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,3,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -909,7 +909,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6600/Product[4k+i,{i,{1,5,6,16,17}}],{k,1,Infinity}]
+Inactive[Sum][6600/Product[4k+i,{i,{1,5,6,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -919,7 +919,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][21840/Product[4k+i,{i,{1,2,7,9,14,15}}],{k,1,Infinity}]
+Inactive[Sum][21840/Product[4k+i,{i,{1,2,7,9,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -929,7 +929,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -939,7 +939,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -949,7 +949,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,5,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,5,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -959,7 +959,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,5,7,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,5,7,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -969,7 +969,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][720/Product[4k+i,{i,{1,7,11,13}}],{k,1,Infinity}]
+Inactive[Sum][720/Product[4k+i,{i,{1,7,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -979,7 +979,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,13,15}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -989,7 +989,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{1,3,5,11}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{1,3,5,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -999,7 +999,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][96/Product[4k+i,{i,{1,3,5,9}}],{k,1,Infinity}]
+Inactive[Sum][96/Product[4k+i,{i,{1,3,5,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1009,7 +1009,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{3,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{3,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1019,7 +1019,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,5,11,13}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,5,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1029,7 +1029,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][112/Product[4k+i,{i,{1,13,15}}],{k,1,Infinity}]
+Inactive[Sum][112/Product[4k+i,{i,{1,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1039,7 +1039,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1049,7 +1049,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][288/Product[4k+i,{i,{1,5,7,13}}],{k,1,Infinity}]
+Inactive[Sum][288/Product[4k+i,{i,{1,5,7,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1059,7 +1059,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{1,11,13}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{1,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1069,7 +1069,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{3,5,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{3,5,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1079,7 +1079,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,5,7,11}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,5,7,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1089,7 +1089,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,3,5,9,11}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,3,5,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1099,7 +1099,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2520/Product[4k+i,{i,{3,8,12,17}}],{k,1,Infinity}]
+Inactive[Sum][2520/Product[4k+i,{i,{3,8,12,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1109,7 +1109,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][216/Product[4k+i,{i,{4,10,13}}],{k,1,Infinity}]
+Inactive[Sum][216/Product[4k+i,{i,{4,10,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1119,7 +1119,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,5,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,5,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1129,7 +1129,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,3,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,3,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1139,7 +1139,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1149,7 +1149,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1344/Product[4k+i,{i,{1,3,5,9,17}}],{k,1,Infinity}]
+Inactive[Sum][1344/Product[4k+i,{i,{1,3,5,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1159,7 +1159,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,11,13}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1169,7 +1169,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1179,7 +1179,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][112/Product[4k+i,{i,{3,5,17}}],{k,1,Infinity}]
+Inactive[Sum][112/Product[4k+i,{i,{3,5,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1189,7 +1189,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,3,5,9,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,3,5,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1199,7 +1199,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1209,7 +1209,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1344/Product[4k+i,{i,{1,3,5,11,15}}],{k,1,Infinity}]
+Inactive[Sum][1344/Product[4k+i,{i,{1,3,5,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1219,7 +1219,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{3,5,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{3,5,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1229,7 +1229,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][112/Product[4k+i,{i,{1,15,17}}],{k,1,Infinity}]
+Inactive[Sum][112/Product[4k+i,{i,{1,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1239,7 +1239,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{3,5,13}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{3,5,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1249,7 +1249,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1848/Product[4k+i,{i,{3,6,14,17}}],{k,1,Infinity}]
+Inactive[Sum][1848/Product[4k+i,{i,{3,6,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1259,7 +1259,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][144/Product[4k+i,{i,{3,9,15}}],{k,1,Infinity}]
+Inactive[Sum][144/Product[4k+i,{i,{3,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1269,7 +1269,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1279,7 +1279,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,7,9,17}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,7,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1289,7 +1289,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1299,7 +1299,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][648/Product[4k+i,{i,{2,5,11,14}}],{k,1,Infinity}]
+Inactive[Sum][648/Product[4k+i,{i,{2,5,11,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1309,7 +1309,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{3,5,15}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{3,5,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1319,7 +1319,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,3,7,9,11}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,3,7,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1329,7 +1329,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{1,3,5,7}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{1,3,5,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1339,7 +1339,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][69300/Product[4k+i,{i,{1,2,5,6,12,13,16}}],{k,1,Infinity}]
+Inactive[Sum][69300/Product[4k+i,{i,{1,2,5,6,12,13,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1349,7 +1349,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,11,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1359,7 +1359,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1369,7 +1369,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,3,5,11,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,3,5,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1379,7 +1379,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1680/Product[4k+i,{i,{3,7,13,17}}],{k,1,Infinity}]
+Inactive[Sum][1680/Product[4k+i,{i,{3,7,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1389,7 +1389,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][13440/Product[4k+i,{i,{1,3,5,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][13440/Product[4k+i,{i,{1,3,5,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1399,7 +1399,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{3,5,9}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{3,5,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1409,7 +1409,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][440/Product[4k+i,{i,{2,3,13,14}}],{k,1,Infinity}]
+Inactive[Sum][440/Product[4k+i,{i,{2,3,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1419,7 +1419,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][189000/Product[4k+i,{i,{2,7,10,12,16,17}}],{k,1,Infinity}]
+Inactive[Sum][189000/Product[4k+i,{i,{2,7,10,12,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1429,7 +1429,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][15120/Product[4k+i,{i,{1,3,6,10,13,15}}],{k,1,Infinity}]
+Inactive[Sum][15120/Product[4k+i,{i,{1,3,6,10,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1439,7 +1439,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{3,6,10,13}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{3,6,10,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1449,7 +1449,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][665280/Product[4k+i,{i,{1,3,4,5,11,12,13,15}}],{k,1,Infinity}]
+Inactive[Sum][665280/Product[4k+i,{i,{1,3,4,5,11,12,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1459,7 +1459,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][672/Product[4k+i,{i,{1,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][672/Product[4k+i,{i,{1,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1469,7 +1469,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1479,7 +1479,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][720/Product[4k+i,{i,{3,5,9,15}}],{k,1,Infinity}]
+Inactive[Sum][720/Product[4k+i,{i,{3,5,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1489,7 +1489,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1120/Product[4k+i,{i,{3,5,13,17}}],{k,1,Infinity}]
+Inactive[Sum][1120/Product[4k+i,{i,{3,5,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1499,7 +1499,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][504/Product[4k+i,{i,{1,7,13,15}}],{k,1,Infinity}]
+Inactive[Sum][504/Product[4k+i,{i,{1,7,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1509,7 +1509,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,5,7,11,15}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,5,7,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1519,7 +1519,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1529,7 +1529,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1539,7 +1539,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][336/Product[4k+i,{i,{1,7,9,15}}],{k,1,Infinity}]
+Inactive[Sum][336/Product[4k+i,{i,{1,7,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1549,7 +1549,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{1,3,5,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{1,3,5,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1559,7 +1559,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][288/Product[4k+i,{i,{1,7,9,13}}],{k,1,Infinity}]
+Inactive[Sum][288/Product[4k+i,{i,{1,7,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1569,7 +1569,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{3,5,11}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{3,5,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1579,7 +1579,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,7,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,7,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1589,7 +1589,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1599,7 +1599,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,5,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,5,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1609,7 +1609,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][672/Product[4k+i,{i,{3,5,9,17}}],{k,1,Infinity}]
+Inactive[Sum][672/Product[4k+i,{i,{3,5,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1619,7 +1619,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,7,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,7,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1629,7 +1629,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{1,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{1,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1639,7 +1639,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{3,7,9}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{3,7,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1649,7 +1649,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][168/Product[4k+i,{i,{2,3,9,10}}],{k,1,Infinity}]
+Inactive[Sum][168/Product[4k+i,{i,{2,3,9,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1659,7 +1659,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][672/Product[4k+i,{i,{1,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][672/Product[4k+i,{i,{1,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1669,7 +1669,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1080/Product[4k+i,{i,{2,3,6,8,12}}],{k,1,Infinity}]
+Inactive[Sum][1080/Product[4k+i,{i,{2,3,6,8,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1679,7 +1679,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][96/Product[4k+i,{i,{1,5,7,9}}],{k,1,Infinity}]
+Inactive[Sum][96/Product[4k+i,{i,{1,5,7,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1689,7 +1689,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{3,5,9,13}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{3,5,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1699,7 +1699,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1709,7 +1709,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,5,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,5,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1719,7 +1719,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][420/Product[4k+i,{i,{1,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][420/Product[4k+i,{i,{1,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1729,7 +1729,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][308880/Product[4k+i,{i,{1,2,3,6,10,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][308880/Product[4k+i,{i,{1,2,3,6,10,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1739,7 +1739,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1749,7 +1749,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1759,7 +1759,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][320/Product[4k+i,{i,{1,3,5,7,11}}],{k,1,Infinity}]
+Inactive[Sum][320/Product[4k+i,{i,{1,3,5,7,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1769,7 +1769,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2160/Product[4k+i,{i,{1,2,5,7,10,11}}],{k,1,Infinity}]
+Inactive[Sum][2160/Product[4k+i,{i,{1,2,5,7,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1779,7 +1779,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{1,3,5,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{1,3,5,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1789,7 +1789,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{1,5,6,8,13}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{1,5,6,8,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1799,7 +1799,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][18480/Product[4k+i,{i,{2,3,7,9,13,14}}],{k,1,Infinity}]
+Inactive[Sum][18480/Product[4k+i,{i,{2,3,7,9,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1809,7 +1809,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,5,7,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,5,7,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1819,7 +1819,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{3,11,13}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{3,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1829,7 +1829,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1839,7 +1839,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][728/Product[4k+i,{i,{3,4,16,17}}],{k,1,Infinity}]
+Inactive[Sum][728/Product[4k+i,{i,{3,4,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1849,7 +1849,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1120/Product[4k+i,{i,{3,7,15,17}}],{k,1,Infinity}]
+Inactive[Sum][1120/Product[4k+i,{i,{3,7,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1859,7 +1859,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,3,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,3,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1869,7 +1869,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{3,5,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{3,5,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1879,7 +1879,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,5,7,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,5,7,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1889,7 +1889,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,5,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,5,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1899,7 +1899,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80640/Product[4k+i,{i,{1,3,5,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][80640/Product[4k+i,{i,{1,3,5,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1909,7 +1909,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1919,7 +1919,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][112/Product[4k+i,{i,{3,15,17}}],{k,1,Infinity}]
+Inactive[Sum][112/Product[4k+i,{i,{3,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1929,7 +1929,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{3,5,11,15}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{3,5,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1939,7 +1939,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1949,7 +1949,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{1,3,7,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{1,3,7,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1959,7 +1959,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{3,9,11}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{3,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1969,7 +1969,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][360/Product[4k+i,{i,{3,4,12,13}}],{k,1,Infinity}]
+Inactive[Sum][360/Product[4k+i,{i,{3,4,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1979,7 +1979,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{1,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{1,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1989,7 +1989,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][83160/Product[4k+i,{i,{3,6,8,12,14,17}}],{k,1,Infinity}]
+Inactive[Sum][83160/Product[4k+i,{i,{3,6,8,12,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -1999,7 +1999,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,7,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,7,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2009,7 +2009,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{1,3,5,7,13,17}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{1,3,5,7,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2019,7 +2019,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][504/Product[4k+i,{i,{3,5,11,17}}],{k,1,Infinity}]
+Inactive[Sum][504/Product[4k+i,{i,{3,5,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2029,7 +2029,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][110880/Product[4k+i,{i,{1,4,5,9,12,15,16}}],{k,1,Infinity}]
+Inactive[Sum][110880/Product[4k+i,{i,{1,4,5,9,12,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2039,7 +2039,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,5,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,5,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2049,7 +2049,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,5,7,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,5,7,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2059,7 +2059,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80/Product[4k+i,{i,{3,13,15}}],{k,1,Infinity}]
+Inactive[Sum][80/Product[4k+i,{i,{3,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2069,7 +2069,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,3,5,7,11,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,3,5,7,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2079,7 +2079,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][192/Product[4k+i,{i,{1,3,5,7,9}}],{k,1,Infinity}]
+Inactive[Sum][192/Product[4k+i,{i,{1,3,5,7,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2089,7 +2089,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,3,5,7,13,15}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,3,5,7,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2099,7 +2099,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{3,7,11,13}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{3,7,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2109,7 +2109,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{1,3,5,7,11,15}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{1,3,5,7,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2119,7 +2119,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,3,5,7,11,13}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,3,5,7,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2129,7 +2129,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,7,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2139,7 +2139,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][16/Product[4k+i,{i,{3,5,7}}],{k,1,Infinity}]
+Inactive[Sum][16/Product[4k+i,{i,{3,5,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2149,7 +2149,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24/Product[4k+i,{i,{4,6,7}}],{k,1,Infinity}]
+Inactive[Sum][24/Product[4k+i,{i,{4,6,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2159,7 +2159,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{2,5,7,10}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{2,5,7,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2169,7 +2169,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,2,3,5,6,7}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,2,3,5,6,7}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2179,7 +2179,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{1,7,9,11}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{1,7,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2189,7 +2189,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][43680/Product[4k+i,{i,{1,3,4,8,9,16,17}}],{k,1,Infinity}]
+Inactive[Sum][43680/Product[4k+i,{i,{1,3,4,8,9,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2199,7 +2199,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,5,7,9,17}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,5,7,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2209,7 +2209,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][280/Product[4k+i,{i,{2,7,9,14}}],{k,1,Infinity}]
+Inactive[Sum][280/Product[4k+i,{i,{2,7,9,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2219,7 +2219,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][311850/Product[4k+i,{i,{1,2,5,6,8,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][311850/Product[4k+i,{i,{1,2,5,6,8,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2229,7 +2229,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80640/Product[4k+i,{i,{1,3,5,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][80640/Product[4k+i,{i,{1,3,5,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2239,7 +2239,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,7,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,7,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2249,7 +2249,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{3,5,15,17}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{3,5,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2259,7 +2259,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2269,7 +2269,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{3,5,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{3,5,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2279,7 +2279,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1680/Product[4k+i,{i,{1,3,4,8,9,11}}],{k,1,Infinity}]
+Inactive[Sum][1680/Product[4k+i,{i,{1,3,4,8,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2289,7 +2289,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][720/Product[4k+i,{i,{3,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][720/Product[4k+i,{i,{3,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2299,7 +2299,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][498960/Product[4k+i,{i,{2,3,4,5,11,12,13,14}}],{k,1,Infinity}]
+Inactive[Sum][498960/Product[4k+i,{i,{2,3,4,5,11,12,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2309,7 +2309,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,5,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,5,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2319,7 +2319,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{1,3,7,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{1,3,7,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2329,7 +2329,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{1,4,6,7,9}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{1,4,6,7,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2339,7 +2339,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][420/Product[4k+i,{i,{3,7,9,17}}],{k,1,Infinity}]
+Inactive[Sum][420/Product[4k+i,{i,{3,7,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2349,7 +2349,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2359,7 +2359,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6160/Product[4k+i,{i,{1,4,5,11,12,15}}],{k,1,Infinity}]
+Inactive[Sum][6160/Product[4k+i,{i,{1,4,5,11,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2369,7 +2369,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{3,4,8,9}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{3,4,8,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2379,7 +2379,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,5,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,5,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2389,7 +2389,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,7,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,7,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2399,7 +2399,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][138600/Product[4k+i,{i,{1,5,6,9,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][138600/Product[4k+i,{i,{1,5,6,9,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2409,7 +2409,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][480/Product[4k+i,{i,{3,7,13,15}}],{k,1,Infinity}]
+Inactive[Sum][480/Product[4k+i,{i,{3,7,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2419,7 +2419,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][576/Product[4k+i,{i,{1,5,7,9,13}}],{k,1,Infinity}]
+Inactive[Sum][576/Product[4k+i,{i,{1,5,7,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2429,7 +2429,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][648/Product[4k+i,{i,{4,7,13,16}}],{k,1,Infinity}]
+Inactive[Sum][648/Product[4k+i,{i,{4,7,13,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2439,7 +2439,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9240/Product[4k+i,{i,{2,3,6,10,13,14}}],{k,1,Infinity}]
+Inactive[Sum][9240/Product[4k+i,{i,{2,3,6,10,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2449,7 +2449,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{3,5,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{3,5,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2459,7 +2459,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,5,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,5,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2469,7 +2469,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,7,9,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,3,5,7,9,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2479,7 +2479,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24/Product[4k+i,{i,{2,3,5,6}}],{k,1,Infinity}]
+Inactive[Sum][24/Product[4k+i,{i,{2,3,5,6}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2489,7 +2489,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2499,7 +2499,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6160/Product[4k+i,{i,{1,4,7,9,12,15}}],{k,1,Infinity}]
+Inactive[Sum][6160/Product[4k+i,{i,{1,4,7,9,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2509,7 +2509,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2519,7 +2519,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][160/Product[4k+i,{i,{1,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][160/Product[4k+i,{i,{1,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2529,7 +2529,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][171600/Product[4k+i,{i,{1,2,4,7,9,12,14,15}}],{k,1,Infinity}]
+Inactive[Sum][171600/Product[4k+i,{i,{1,2,4,7,9,12,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2539,7 +2539,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{3,7,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{3,7,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2549,7 +2549,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{3,5,11,13}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{3,5,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2559,7 +2559,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1344/Product[4k+i,{i,{1,5,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][1344/Product[4k+i,{i,{1,5,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2569,7 +2569,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][288/Product[4k+i,{i,{3,7,9,15}}],{k,1,Infinity}]
+Inactive[Sum][288/Product[4k+i,{i,{3,7,9,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2579,7 +2579,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2016/Product[4k+i,{i,{1,2,3,5,6,9,10}}],{k,1,Infinity}]
+Inactive[Sum][2016/Product[4k+i,{i,{1,2,3,5,6,9,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2589,7 +2589,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{3,5,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{3,5,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2599,7 +2599,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2882880/Product[4k+i,{i,{3,4,5,9,11,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][2882880/Product[4k+i,{i,{3,4,5,9,11,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2609,7 +2609,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][160/Product[4k+i,{i,{3,5,7,15}}],{k,1,Infinity}]
+Inactive[Sum][160/Product[4k+i,{i,{3,5,7,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2619,7 +2619,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{3,7,9,13}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{3,7,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2629,7 +2629,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1440/Product[4k+i,{i,{1,3,5,7,9,13}}],{k,1,Infinity}]
+Inactive[Sum][1440/Product[4k+i,{i,{1,3,5,7,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2639,7 +2639,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][440/Product[4k+i,{i,{4,5,15,16}}],{k,1,Infinity}]
+Inactive[Sum][440/Product[4k+i,{i,{4,5,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2649,7 +2649,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2659,7 +2659,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][110880/Product[4k+i,{i,{2,3,6,9,13,14,17}}],{k,1,Infinity}]
+Inactive[Sum][110880/Product[4k+i,{i,{2,3,6,9,13,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2669,7 +2669,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][32760/Product[4k+i,{i,{3,4,8,12,16,17}}],{k,1,Infinity}]
+Inactive[Sum][32760/Product[4k+i,{i,{3,4,8,12,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2679,7 +2679,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,2,3,5,6,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,2,3,5,6,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2689,7 +2689,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,3,7,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,3,7,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2699,7 +2699,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][672/Product[4k+i,{i,{3,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][672/Product[4k+i,{i,{3,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2709,7 +2709,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2719,7 +2719,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{1,5,6,10,11,15}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{1,5,6,10,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2729,7 +2729,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{3,5,7,13}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{3,5,7,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2739,7 +2739,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,7,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,7,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2749,7 +2749,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][166320/Product[4k+i,{i,{1,3,4,6,10,12,13,15}}],{k,1,Infinity}]
+Inactive[Sum][166320/Product[4k+i,{i,{1,3,4,6,10,12,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2759,7 +2759,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][504/Product[4k+i,{i,{3,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][504/Product[4k+i,{i,{3,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2769,7 +2769,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][96/Product[4k+i,{i,{3,5,7,11}}],{k,1,Infinity}]
+Inactive[Sum][96/Product[4k+i,{i,{3,5,7,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2779,7 +2779,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][320/Product[4k+i,{i,{1,5,7,9,11}}],{k,1,Infinity}]
+Inactive[Sum][320/Product[4k+i,{i,{1,5,7,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2789,7 +2789,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24024/Product[4k+i,{i,{3,4,6,14,16,17}}],{k,1,Infinity}]
+Inactive[Sum][24024/Product[4k+i,{i,{3,4,6,14,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2799,7 +2799,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{3,5,7,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{3,5,7,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2809,7 +2809,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][13440/Product[4k+i,{i,{1,5,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][13440/Product[4k+i,{i,{1,5,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2819,7 +2819,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,3,5,7,9,11}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,3,5,7,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2829,7 +2829,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][60480/Product[4k+i,{i,{1,3,8,10,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][60480/Product[4k+i,{i,{1,3,8,10,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2839,7 +2839,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{1,5,7,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{1,5,7,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2849,7 +2849,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{3,7,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{3,7,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2859,7 +2859,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,7,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,7,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2869,7 +2869,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,5,7,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,5,7,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2879,7 +2879,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3706560/Product[4k+i,{i,{1,2,3,4,5,11,12,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][3706560/Product[4k+i,{i,{1,2,3,4,5,11,12,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2889,7 +2889,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][336/Product[4k+i,{i,{3,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][336/Product[4k+i,{i,{3,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2899,7 +2899,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5760/Product[4k+i,{i,{1,5,7,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][5760/Product[4k+i,{i,{1,5,7,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2909,7 +2909,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{3,5,7,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{3,5,7,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2919,7 +2919,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][117936/Product[4k+i,{i,{1,2,5,6,10,11,14,15}}],{k,1,Infinity}]
+Inactive[Sum][117936/Product[4k+i,{i,{1,2,5,6,10,11,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2929,7 +2929,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{1,5,7,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{1,5,7,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2939,7 +2939,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,7,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,5,7,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2949,7 +2949,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][288/Product[4k+i,{i,{3,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][288/Product[4k+i,{i,{3,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2959,7 +2959,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][60480/Product[4k+i,{i,{3,4,5,9,10,11,13}}],{k,1,Infinity}]
+Inactive[Sum][60480/Product[4k+i,{i,{3,4,5,9,10,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2969,7 +2969,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][15120/Product[4k+i,{i,{1,2,3,4,8,9,10,11}}],{k,1,Infinity}]
+Inactive[Sum][15120/Product[4k+i,{i,{1,2,3,4,8,9,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2979,7 +2979,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80640/Product[4k+i,{i,{1,5,7,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][80640/Product[4k+i,{i,{1,5,7,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2989,7 +2989,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][168/Product[4k+i,{i,{4,5,11,12}}],{k,1,Infinity}]
+Inactive[Sum][168/Product[4k+i,{i,{4,5,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -2999,7 +2999,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3960/Product[4k+i,{i,{2,3,4,12,13,14}}],{k,1,Infinity}]
+Inactive[Sum][3960/Product[4k+i,{i,{2,3,4,12,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3009,7 +3009,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][16128/Product[4k+i,{i,{1,3,5,7,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][16128/Product[4k+i,{i,{1,3,5,7,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3019,7 +3019,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][224/Product[4k+i,{i,{1,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][224/Product[4k+i,{i,{1,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3029,7 +3029,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,7,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,7,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3039,7 +3039,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][420/Product[4k+i,{i,{3,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][420/Product[4k+i,{i,{3,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3049,7 +3049,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3059,7 +3059,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][13440/Product[4k+i,{i,{1,3,5,7,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][13440/Product[4k+i,{i,{1,3,5,7,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3069,7 +3069,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][21840/Product[4k+i,{i,{3,4,9,11,16,17}}],{k,1,Infinity}]
+Inactive[Sum][21840/Product[4k+i,{i,{3,4,9,11,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3079,7 +3079,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1330560/Product[4k+i,{i,{1,3,5,6,7,11,12,13,17}}],{k,1,Infinity}]
+Inactive[Sum][1330560/Product[4k+i,{i,{1,3,5,6,7,11,12,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3089,7 +3089,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1080/Product[4k+i,{i,{3,6,7,11,12}}],{k,1,Infinity}]
+Inactive[Sum][1080/Product[4k+i,{i,{3,6,7,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3099,7 +3099,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,3,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,3,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3109,7 +3109,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][7560/Product[4k+i,{i,{3,4,6,10,12,13}}],{k,1,Infinity}]
+Inactive[Sum][7560/Product[4k+i,{i,{3,4,6,10,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3119,7 +3119,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,5,7,11,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,5,7,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3129,7 +3129,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][43680/Product[4k+i,{i,{1,2,9,10,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][43680/Product[4k+i,{i,{1,2,9,10,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3139,7 +3139,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,5,6,8,11,13}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,5,6,8,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3149,7 +3149,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1344/Product[4k+i,{i,{3,5,7,13,17}}],{k,1,Infinity}]
+Inactive[Sum][1344/Product[4k+i,{i,{3,5,7,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3159,7 +3159,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4536/Product[4k+i,{i,{2,4,5,11,12,14}}],{k,1,Infinity}]
+Inactive[Sum][4536/Product[4k+i,{i,{2,4,5,11,12,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3169,7 +3169,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{3,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{3,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3179,7 +3179,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3189,7 +3189,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{3,7,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{3,7,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3199,7 +3199,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,5,7,11,15}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,5,7,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3209,7 +3209,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][280/Product[4k+i,{i,{4,9,11,16}}],{k,1,Infinity}]
+Inactive[Sum][280/Product[4k+i,{i,{4,9,11,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3219,7 +3219,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{3,5,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{3,5,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3229,7 +3229,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][48/Product[4k+i,{i,{3,5,7,9}}],{k,1,Infinity}]
+Inactive[Sum][48/Product[4k+i,{i,{3,5,7,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3239,7 +3239,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][60480/Product[4k+i,{i,{3,5,6,7,11,12,13}}],{k,1,Infinity}]
+Inactive[Sum][60480/Product[4k+i,{i,{3,5,6,7,11,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3249,7 +3249,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12096/Product[4k+i,{i,{1,2,3,5,7,9,10,11}}],{k,1,Infinity}]
+Inactive[Sum][12096/Product[4k+i,{i,{1,2,3,5,7,9,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3259,7 +3259,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{1,3,5,7,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{1,3,5,7,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3269,7 +3269,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][96/Product[4k+i,{i,{3,7,9,11}}],{k,1,Infinity}]
+Inactive[Sum][96/Product[4k+i,{i,{3,7,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3279,7 +3279,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,5,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,5,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3289,7 +3289,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5760/Product[4k+i,{i,{1,5,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][5760/Product[4k+i,{i,{1,5,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3299,7 +3299,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,7,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,7,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3309,7 +3309,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1080/Product[4k+i,{i,{4,5,9,10,13}}],{k,1,Infinity}]
+Inactive[Sum][1080/Product[4k+i,{i,{4,5,9,10,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3319,7 +3319,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,5,7,13,15}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,5,7,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3329,7 +3329,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{3,5,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{3,5,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3339,7 +3339,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][8064/Product[4k+i,{i,{1,3,5,7,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][8064/Product[4k+i,{i,{1,3,5,7,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3349,7 +3349,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4200/Product[4k+i,{i,{2,4,7,9,12,14}}],{k,1,Infinity}]
+Inactive[Sum][4200/Product[4k+i,{i,{2,4,7,9,12,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3359,7 +3359,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][161280/Product[4k+i,{i,{1,3,5,7,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][161280/Product[4k+i,{i,{1,3,5,7,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3369,7 +3369,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{3,4,5,11,12,13}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{3,4,5,11,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3379,7 +3379,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{3,7,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{3,7,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3389,7 +3389,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,9,11,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,5,7,9,11,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3399,7 +3399,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{4,7,9,12}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{4,7,9,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3409,7 +3409,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{2,3,4,8,9,10}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{2,3,4,8,9,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3419,7 +3419,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1344/Product[4k+i,{i,{1,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][1344/Product[4k+i,{i,{1,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3429,7 +3429,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{1,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{1,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3439,7 +3439,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][67392/Product[4k+i,{i,{1,2,5,7,9,11,14,15}}],{k,1,Infinity}]
+Inactive[Sum][67392/Product[4k+i,{i,{1,2,5,7,9,11,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3449,7 +3449,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][124740/Product[4k+i,{i,{2,5,8,10,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][124740/Product[4k+i,{i,{2,5,8,10,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3459,7 +3459,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{1,4,5,7,8,11}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{1,4,5,7,8,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3469,7 +3469,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2162160/Product[4k+i,{i,{1,2,3,4,6,10,12,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][2162160/Product[4k+i,{i,{1,2,3,4,6,10,12,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3479,7 +3479,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][15120/Product[4k+i,{i,{3,5,8,12,15,17}}],{k,1,Infinity}]
+Inactive[Sum][15120/Product[4k+i,{i,{3,5,8,12,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3489,7 +3489,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,7,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3499,7 +3499,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,5,7,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,5,7,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3509,7 +3509,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][18480/Product[4k+i,{i,{4,5,9,11,15,16}}],{k,1,Infinity}]
+Inactive[Sum][18480/Product[4k+i,{i,{4,5,9,11,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3519,7 +3519,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5760/Product[4k+i,{i,{1,3,5,7,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][5760/Product[4k+i,{i,{1,3,5,7,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3529,7 +3529,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1081080/Product[4k+i,{i,{3,4,6,8,12,14,16,17}}],{k,1,Infinity}]
+Inactive[Sum][1081080/Product[4k+i,{i,{3,4,6,8,12,14,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3539,7 +3539,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,7,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,7,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3549,7 +3549,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][120/Product[4k+i,{i,{3,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][120/Product[4k+i,{i,{3,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3559,7 +3559,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{3,5,7,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{3,5,7,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3569,7 +3569,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3240/Product[4k+i,{i,{2,5,6,10,11,14}}],{k,1,Infinity}]
+Inactive[Sum][3240/Product[4k+i,{i,{2,5,6,10,11,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3579,7 +3579,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9072/Product[4k+i,{i,{1,2,4,5,7,8,10,11}}],{k,1,Infinity}]
+Inactive[Sum][9072/Product[4k+i,{i,{1,2,4,5,7,8,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3589,7 +3589,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{1,5,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{1,5,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3599,7 +3599,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{3,7,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{3,7,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3609,7 +3609,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,5,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,5,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3619,7 +3619,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][13440/Product[4k+i,{i,{1,3,7,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][13440/Product[4k+i,{i,{1,3,7,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3629,7 +3629,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][161280/Product[4k+i,{i,{1,3,5,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][161280/Product[4k+i,{i,{1,3,5,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3639,7 +3639,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{3,5,6,8,11}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{3,5,6,8,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3649,7 +3649,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1440/Product[4k+i,{i,{1,5,7,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][1440/Product[4k+i,{i,{1,5,7,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3659,7 +3659,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][160/Product[4k+i,{i,{3,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][160/Product[4k+i,{i,{3,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3669,7 +3669,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,5,7,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,5,7,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3679,7 +3679,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][60480/Product[4k+i,{i,{1,3,5,6,10,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][60480/Product[4k+i,{i,{1,3,5,6,10,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3689,7 +3689,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80640/Product[4k+i,{i,{1,3,5,7,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][80640/Product[4k+i,{i,{1,3,5,7,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3699,7 +3699,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{2,3,5,7,9,10}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{2,3,5,7,9,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3709,7 +3709,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{1,5,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{1,5,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3719,7 +3719,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][320/Product[4k+i,{i,{3,5,7,9,13}}],{k,1,Infinity}]
+Inactive[Sum][320/Product[4k+i,{i,{3,5,7,9,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3729,7 +3729,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][181440/Product[4k+i,{i,{1,2,3,4,5,7,8,9,10,11}}],{k,1,Infinity}]
+Inactive[Sum][181440/Product[4k+i,{i,{1,2,3,4,5,7,8,9,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3739,7 +3739,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][83160/Product[4k+i,{i,{2,3,4,6,10,12,13,14}}],{k,1,Infinity}]
+Inactive[Sum][83160/Product[4k+i,{i,{2,3,4,6,10,12,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3749,7 +3749,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24/Product[4k+i,{i,{4,5,7,8}}],{k,1,Infinity}]
+Inactive[Sum][24/Product[4k+i,{i,{4,5,7,8}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3759,7 +3759,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][39312/Product[4k+i,{i,{1,2,6,7,9,10,14,15}}],{k,1,Infinity}]
+Inactive[Sum][39312/Product[4k+i,{i,{1,2,6,7,9,10,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3769,7 +3769,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,7,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,7,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3779,7 +3779,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{3,5,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{3,5,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3789,7 +3789,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{3,8,10,11,15}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{3,8,10,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3799,7 +3799,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][53760/Product[4k+i,{i,{1,3,5,7,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][53760/Product[4k+i,{i,{1,3,5,7,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3809,7 +3809,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][665280/Product[4k+i,{i,{3,5,6,7,13,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][665280/Product[4k+i,{i,{3,5,6,7,13,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3819,7 +3819,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,5,7,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,5,7,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3829,7 +3829,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1344/Product[4k+i,{i,{3,7,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][1344/Product[4k+i,{i,{3,7,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3839,7 +3839,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9240/Product[4k+i,{i,{4,5,8,12,15,16}}],{k,1,Infinity}]
+Inactive[Sum][9240/Product[4k+i,{i,{4,5,8,12,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3849,7 +3849,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1080/Product[4k+i,{i,{4,8,10,13,14}}],{k,1,Infinity}]
+Inactive[Sum][1080/Product[4k+i,{i,{4,8,10,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3859,7 +3859,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][576/Product[4k+i,{i,{3,7,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][576/Product[4k+i,{i,{3,7,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3869,7 +3869,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{3,5,7,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{3,5,7,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3879,7 +3879,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][20160/Product[4k+i,{i,{1,3,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3889,7 +3889,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][192/Product[4k+i,{i,{3,5,7,9,11}}],{k,1,Infinity}]
+Inactive[Sum][192/Product[4k+i,{i,{3,5,7,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3899,7 +3899,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{1,3,4,5,7,8,9,11}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{1,3,4,5,7,8,9,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3909,7 +3909,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,3,5,7,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3919,7 +3919,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{1,7,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{1,7,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3929,7 +3929,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2160/Product[4k+i,{i,{3,4,7,9,12,13}}],{k,1,Infinity}]
+Inactive[Sum][2160/Product[4k+i,{i,{3,4,7,9,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3939,7 +3939,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{3,5,7,9,15,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{3,5,7,9,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3949,7 +3949,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{3,5,7,9,13,17}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{3,5,7,9,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3959,7 +3959,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6160/Product[4k+i,{i,{3,6,7,13,14,17}}],{k,1,Infinity}]
+Inactive[Sum][6160/Product[4k+i,{i,{3,6,7,13,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3969,7 +3969,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{3,5,7,9,13,15}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{3,5,7,9,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3979,7 +3979,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{3,5,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{3,5,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3989,7 +3989,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{1,7,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{1,7,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -3999,7 +3999,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][360/Product[4k+i,{i,{2,4,5,7,8,10}}],{k,1,Infinity}]
+Inactive[Sum][360/Product[4k+i,{i,{2,4,5,7,8,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4009,7 +4009,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][15120/Product[4k+i,{i,{3,5,6,8,10,11,12}}],{k,1,Infinity}]
+Inactive[Sum][15120/Product[4k+i,{i,{3,5,6,8,10,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4019,7 +4019,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6160/Product[4k+i,{i,{3,6,9,11,14,17}}],{k,1,Infinity}]
+Inactive[Sum][6160/Product[4k+i,{i,{3,6,9,11,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4029,7 +4029,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][11520/Product[4k+i,{i,{1,5,7,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][11520/Product[4k+i,{i,{1,5,7,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4039,7 +4039,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][498960/Product[4k+i,{i,{4,5,6,7,13,14,15,16}}],{k,1,Infinity}]
+Inactive[Sum][498960/Product[4k+i,{i,{4,5,6,7,13,14,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4049,7 +4049,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][33264/Product[4k+i,{i,{1,4,5,6,10,11,12,15}}],{k,1,Infinity}]
+Inactive[Sum][33264/Product[4k+i,{i,{1,4,5,6,10,11,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4059,7 +4059,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][926640/Product[4k+i,{i,{1,2,4,5,6,10,11,12,14,15}}],{k,1,Infinity}]
+Inactive[Sum][926640/Product[4k+i,{i,{1,2,4,5,6,10,11,12,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4069,7 +4069,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1680/Product[4k+i,{i,{3,5,6,10,11,13}}],{k,1,Infinity}]
+Inactive[Sum][1680/Product[4k+i,{i,{3,5,6,10,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4079,7 +4079,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{3,5,7,9,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{3,5,7,9,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4089,7 +4089,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][308880/Product[4k+i,{i,{3,4,5,8,12,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][308880/Product[4k+i,{i,{3,4,5,8,12,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4099,7 +4099,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][320/Product[4k+i,{i,{3,7,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][320/Product[4k+i,{i,{3,7,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4109,7 +4109,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{3,7,8,12,13,17}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{3,7,8,12,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4119,7 +4119,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][8064/Product[4k+i,{i,{1,5,7,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][8064/Product[4k+i,{i,{1,5,7,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4129,7 +4129,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][80640/Product[4k+i,{i,{1,3,7,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][80640/Product[4k+i,{i,{1,3,7,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4139,7 +4139,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][25920/Product[4k+i,{i,{1,3,6,7,9,10,13,15}}],{k,1,Infinity}]
+Inactive[Sum][25920/Product[4k+i,{i,{1,3,6,7,9,10,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4149,7 +4149,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][15120/Product[4k+i,{i,{4,5,6,8,10,11,13}}],{k,1,Infinity}]
+Inactive[Sum][15120/Product[4k+i,{i,{4,5,6,8,10,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4159,7 +4159,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{3,5,7,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{3,5,7,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4169,7 +4169,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2880/Product[4k+i,{i,{3,5,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][2880/Product[4k+i,{i,{3,5,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4179,7 +4179,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3960/Product[4k+i,{i,{4,5,6,14,15,16}}],{k,1,Infinity}]
+Inactive[Sum][3960/Product[4k+i,{i,{4,5,6,14,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4189,7 +4189,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{3,7,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{3,7,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4199,7 +4199,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4536/Product[4k+i,{i,{4,6,7,13,14,16}}],{k,1,Infinity}]
+Inactive[Sum][4536/Product[4k+i,{i,{4,6,7,13,14,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4209,7 +4209,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][16128/Product[4k+i,{i,{1,5,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][16128/Product[4k+i,{i,{1,5,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4219,7 +4219,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][25945920/Product[4k+i,{i,{1,2,3,4,5,6,10,11,12,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][25945920/Product[4k+i,{i,{1,2,3,4,5,6,10,11,12,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4229,7 +4229,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24640/Product[4k+i,{i,{1,4,5,7,9,11,12,15}}],{k,1,Infinity}]
+Inactive[Sum][24640/Product[4k+i,{i,{1,4,5,7,9,11,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4239,7 +4239,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1440/Product[4k+i,{i,{3,5,7,9,11,15}}],{k,1,Infinity}]
+Inactive[Sum][1440/Product[4k+i,{i,{3,5,7,9,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4249,7 +4249,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][322560/Product[4k+i,{i,{1,3,5,7,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][322560/Product[4k+i,{i,{1,3,5,7,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4259,7 +4259,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4200/Product[4k+i,{i,{4,6,9,11,14,16}}],{k,1,Infinity}]
+Inactive[Sum][4200/Product[4k+i,{i,{4,6,9,11,14,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4269,7 +4269,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][23587200/Product[4k+i,{i,{1,2,3,4,5,7,9,11,12,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][23587200/Product[4k+i,{i,{1,2,3,4,5,7,9,11,12,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4279,7 +4279,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{2,6,7,9,10,14}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{2,6,7,9,10,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4289,7 +4289,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{2,3,4,5,7,8,9,10}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{2,3,4,5,7,8,9,10}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4299,7 +4299,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][362880/Product[4k+i,{i,{1,3,5,8,10,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][362880/Product[4k+i,{i,{1,3,5,8,10,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4309,7 +4309,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][240/Product[4k+i,{i,{3,4,5,7,8,9}}],{k,1,Infinity}]
+Inactive[Sum][240/Product[4k+i,{i,{3,4,5,7,8,9}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4319,7 +4319,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2016/Product[4k+i,{i,{2,3,6,7,9,10,11}}],{k,1,Infinity}]
+Inactive[Sum][2016/Product[4k+i,{i,{2,3,6,7,9,10,11}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4329,7 +4329,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][4032/Product[4k+i,{i,{3,5,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][4032/Product[4k+i,{i,{3,5,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4339,7 +4339,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][960/Product[4k+i,{i,{3,5,7,9,11,13}}],{k,1,Infinity}]
+Inactive[Sum][960/Product[4k+i,{i,{3,5,7,9,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4349,7 +4349,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{1,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{1,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4359,7 +4359,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][665280/Product[4k+i,{i,{1,3,4,5,6,10,11,12,13,15}}],{k,1,Infinity}]
+Inactive[Sum][665280/Product[4k+i,{i,{1,3,4,5,6,10,11,12,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4369,7 +4369,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][171600/Product[4k+i,{i,{3,4,6,9,11,14,16,17}}],{k,1,Infinity}]
+Inactive[Sum][171600/Product[4k+i,{i,{3,4,6,9,11,14,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4379,7 +4379,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3240/Product[4k+i,{i,{4,7,8,12,13,16}}],{k,1,Infinity}]
+Inactive[Sum][3240/Product[4k+i,{i,{4,7,8,12,13,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4389,7 +4389,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][570240/Product[4k+i,{i,{1,3,4,5,7,9,11,12,13,15}}],{k,1,Infinity}]
+Inactive[Sum][570240/Product[4k+i,{i,{1,3,4,5,7,9,11,12,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4399,7 +4399,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{4,5,6,10,11,12}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{4,5,6,10,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4409,7 +4409,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][518400/Product[4k+i,{i,{1,2,5,6,7,9,10,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][518400/Product[4k+i,{i,{1,2,5,6,7,9,10,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4419,7 +4419,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][166320/Product[4k+i,{i,{3,5,6,8,12,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][166320/Product[4k+i,{i,{3,5,6,8,12,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4429,7 +4429,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][471744/Product[4k+i,{i,{1,2,5,6,7,9,10,11,14,15}}],{k,1,Infinity}]
+Inactive[Sum][471744/Product[4k+i,{i,{1,2,5,6,7,9,10,11,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4439,7 +4439,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2240/Product[4k+i,{i,{3,7,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][2240/Product[4k+i,{i,{3,7,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4449,7 +4449,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][13440/Product[4k+i,{i,{3,5,7,9,11,15,17}}],{k,1,Infinity}]
+Inactive[Sum][13440/Product[4k+i,{i,{3,5,7,9,11,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4459,7 +4459,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][22680/Product[4k+i,{i,{2,4,5,6,10,11,12,14}}],{k,1,Infinity}]
+Inactive[Sum][22680/Product[4k+i,{i,{2,4,5,6,10,11,12,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4469,7 +4469,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][17297280/Product[4k+i,{i,{1,2,3,5,6,7,9,10,11,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][17297280/Product[4k+i,{i,{1,2,3,5,6,7,9,10,11,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4479,7 +4479,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3360/Product[4k+i,{i,{3,7,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][3360/Product[4k+i,{i,{3,7,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4489,7 +4489,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][53760/Product[4k+i,{i,{1,5,7,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][53760/Product[4k+i,{i,{1,5,7,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4499,7 +4499,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][778377600/Product[4k+i,{i,{1,2,3,4,5,6,7,9,10,11,12,13,14,15}}],{k,1,Infinity}]
+Inactive[Sum][778377600/Product[4k+i,{i,{1,2,3,4,5,6,7,9,10,11,12,13,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4509,7 +4509,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2016/Product[4k+i,{i,{3,4,5,7,8,11,12}}],{k,1,Infinity}]
+Inactive[Sum][2016/Product[4k+i,{i,{3,4,5,7,8,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4519,7 +4519,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][18480/Product[4k+i,{i,{2,3,6,7,9,10,13,14}}],{k,1,Infinity}]
+Inactive[Sum][18480/Product[4k+i,{i,{2,3,6,7,9,10,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4529,7 +4529,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10080/Product[4k+i,{i,{1,7,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][10080/Product[4k+i,{i,{1,7,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4539,7 +4539,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][117936/Product[4k+i,{i,{3,4,7,8,12,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][117936/Product[4k+i,{i,{3,4,7,8,12,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4549,7 +4549,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{3,6,7,9,10,13}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{3,6,7,9,10,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4559,7 +4559,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][1440/Product[4k+i,{i,{3,7,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][1440/Product[4k+i,{i,{3,7,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4569,7 +4569,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12096/Product[4k+i,{i,{1,5,6,7,9,10,11,15}}],{k,1,Infinity}]
+Inactive[Sum][12096/Product[4k+i,{i,{1,5,6,7,9,10,11,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4579,7 +4579,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][8064/Product[4k+i,{i,{3,5,7,9,11,13,17}}],{k,1,Infinity}]
+Inactive[Sum][8064/Product[4k+i,{i,{3,5,7,9,11,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4589,7 +4589,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][560/Product[4k+i,{i,{4,5,7,9,11,12}}],{k,1,Infinity}]
+Inactive[Sum][560/Product[4k+i,{i,{4,5,7,9,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4599,7 +4599,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][14414400/Product[4k+i,{i,{1,2,4,5,6,7,9,10,11,12,14,15}}],{k,1,Infinity}]
+Inactive[Sum][14414400/Product[4k+i,{i,{1,2,4,5,6,7,9,10,11,12,14,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4609,7 +4609,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5760/Product[4k+i,{i,{3,5,7,9,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][5760/Product[4k+i,{i,{3,5,7,9,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4619,7 +4619,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][362880/Product[4k+i,{i,{1,3,5,6,7,9,10,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][362880/Product[4k+i,{i,{1,3,5,6,7,9,10,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4629,7 +4629,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5241600/Product[4k+i,{i,{1,2,5,6,7,9,10,13,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][5241600/Product[4k+i,{i,{1,2,5,6,7,9,10,13,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4639,7 +4639,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][13440/Product[4k+i,{i,{3,5,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][13440/Product[4k+i,{i,{3,5,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4649,7 +4649,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][498960/Product[4k+i,{i,{2,3,4,5,6,10,11,12,13,14}}],{k,1,Infinity}]
+Inactive[Sum][498960/Product[4k+i,{i,{2,3,4,5,6,10,11,12,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4659,7 +4659,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{3,5,8,10,11,13,15}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{3,5,8,10,11,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4669,7 +4669,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5241600/Product[4k+i,{i,{1,3,4,5,8,9,11,12,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][5241600/Product[4k+i,{i,{1,3,4,5,8,9,11,12,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4679,7 +4679,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12600/Product[4k+i,{i,{2,4,6,7,9,10,12,14}}],{k,1,Infinity}]
+Inactive[Sum][12600/Product[4k+i,{i,{2,4,6,7,9,10,12,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4689,7 +4689,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][15120/Product[4k+i,{i,{3,4,5,6,10,11,12,13}}],{k,1,Infinity}]
+Inactive[Sum][15120/Product[4k+i,{i,{3,4,5,6,10,11,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4699,7 +4699,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][67392/Product[4k+i,{i,{3,4,7,9,11,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][67392/Product[4k+i,{i,{3,4,7,9,11,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4709,7 +4709,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][10897286400/Product[4k+i,{i,{1,2,3,4,5,6,8,9,10,12,13,14,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][10897286400/Product[4k+i,{i,{1,2,3,4,5,6,8,9,10,12,13,14,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4719,7 +4719,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][83160/Product[4k+i,{i,{4,5,6,8,12,14,15,16}}],{k,1,Infinity}]
+Inactive[Sum][83160/Product[4k+i,{i,{4,5,6,8,12,14,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4729,7 +4729,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][360/Product[4k+i,{i,{4,6,7,9,10,12}}],{k,1,Infinity}]
+Inactive[Sum][360/Product[4k+i,{i,{4,6,7,9,10,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4739,7 +4739,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][11975040/Product[4k+i,{i,{1,3,4,5,6,7,9,10,11,12,13,15}}],{k,1,Infinity}]
+Inactive[Sum][11975040/Product[4k+i,{i,{1,3,4,5,6,7,9,10,11,12,13,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4749,7 +4749,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][3706560/Product[4k+i,{i,{3,4,5,6,7,13,14,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][3706560/Product[4k+i,{i,{3,4,5,6,7,13,14,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4759,7 +4759,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][285120/Product[4k+i,{i,{1,4,5,6,7,9,10,11,12,15}}],{k,1,Infinity}]
+Inactive[Sum][285120/Product[4k+i,{i,{1,4,5,6,7,9,10,11,12,15}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4769,7 +4769,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12096/Product[4k+i,{i,{3,4,5,7,9,11,12,13}}],{k,1,Infinity}]
+Inactive[Sum][12096/Product[4k+i,{i,{3,4,5,7,9,11,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4779,7 +4779,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][60480/Product[4k+i,{i,{3,5,7,8,12,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][60480/Product[4k+i,{i,{3,5,7,8,12,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4789,7 +4789,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][356400/Product[4k+i,{i,{2,3,4,6,7,9,10,12,13,14}}],{k,1,Infinity}]
+Inactive[Sum][356400/Product[4k+i,{i,{2,3,4,6,7,9,10,12,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4799,7 +4799,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9072/Product[4k+i,{i,{2,5,6,7,9,10,11,14}}],{k,1,Infinity}]
+Inactive[Sum][9072/Product[4k+i,{i,{2,5,6,7,9,10,11,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4809,7 +4809,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][840/Product[4k+i,{i,{4,8,9,11,12,16}}],{k,1,Infinity}]
+Inactive[Sum][840/Product[4k+i,{i,{4,8,9,11,12,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4819,7 +4819,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{1,5,9,12,13,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{1,5,9,12,13,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4829,7 +4829,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][39312/Product[4k+i,{i,{3,4,8,9,11,12,16,17}}],{k,1,Infinity}]
+Inactive[Sum][39312/Product[4k+i,{i,{3,4,8,9,11,12,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4839,7 +4839,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9072/Product[4k+i,{i,{3,4,6,7,9,10,12,13}}],{k,1,Infinity}]
+Inactive[Sum][9072/Product[4k+i,{i,{3,4,6,7,9,10,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4849,7 +4849,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][8064/Product[4k+i,{i,{3,7,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][8064/Product[4k+i,{i,{3,7,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4859,7 +4859,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][285120/Product[4k+i,{i,{2,3,5,6,7,9,10,11,13,14}}],{k,1,Infinity}]
+Inactive[Sum][285120/Product[4k+i,{i,{2,3,5,6,7,9,10,11,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4869,7 +4869,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][40320/Product[4k+i,{i,{3,5,7,9,11,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][40320/Product[4k+i,{i,{3,5,7,9,11,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4879,7 +4879,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2162160/Product[4k+i,{i,{3,4,5,6,8,12,14,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][2162160/Product[4k+i,{i,{3,4,5,6,8,12,14,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4889,7 +4889,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][33264/Product[4k+i,{i,{3,6,7,8,12,13,14,17}}],{k,1,Infinity}]
+Inactive[Sum][33264/Product[4k+i,{i,{3,6,7,8,12,13,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4899,7 +4899,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9979200/Product[4k+i,{i,{2,3,4,5,6,7,9,10,11,12,13,14}}],{k,1,Infinity}]
+Inactive[Sum][9979200/Product[4k+i,{i,{2,3,4,5,6,7,9,10,11,12,13,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4909,7 +4909,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][2016/Product[4k+i,{i,{4,5,8,9,11,12,13}}],{k,1,Infinity}]
+Inactive[Sum][2016/Product[4k+i,{i,{4,5,8,9,11,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4919,7 +4919,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][6720/Product[4k+i,{i,{3,5,6,7,9,10,11,13}}],{k,1,Infinity}]
+Inactive[Sum][6720/Product[4k+i,{i,{3,5,6,7,9,10,11,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4929,7 +4929,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][226800/Product[4k+i,{i,{2,4,5,6,7,9,10,11,12,14}}],{k,1,Infinity}]
+Inactive[Sum][226800/Product[4k+i,{i,{2,4,5,6,7,9,10,11,12,14}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4939,7 +4939,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][25920/Product[4k+i,{i,{3,5,8,9,11,12,15,17}}],{k,1,Infinity}]
+Inactive[Sum][25920/Product[4k+i,{i,{3,5,8,9,11,12,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4949,7 +4949,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][24640/Product[4k+i,{i,{3,6,7,9,11,13,14,17}}],{k,1,Infinity}]
+Inactive[Sum][24640/Product[4k+i,{i,{3,6,7,9,11,13,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4959,7 +4959,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][5040/Product[4k+i,{i,{4,5,6,7,9,10,11,12}}],{k,1,Infinity}]
+Inactive[Sum][5040/Product[4k+i,{i,{4,5,6,7,9,10,11,12}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4969,7 +4969,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][22680/Product[4k+i,{i,{4,6,7,8,12,13,14,16}}],{k,1,Infinity}]
+Inactive[Sum][22680/Product[4k+i,{i,{4,6,7,8,12,13,14,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4979,7 +4979,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][181440/Product[4k+i,{i,{3,4,5,6,7,9,10,11,12,13}}],{k,1,Infinity}]
+Inactive[Sum][181440/Product[4k+i,{i,{3,4,5,6,7,9,10,11,12,13}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4989,7 +4989,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][518400/Product[4k+i,{i,{1,5,7,8,9,11,12,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][518400/Product[4k+i,{i,{1,5,7,8,9,11,12,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -4999,7 +4999,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][18480/Product[4k+i,{i,{4,5,8,9,11,12,15,16}}],{k,1,Infinity}]
+Inactive[Sum][18480/Product[4k+i,{i,{4,5,8,9,11,12,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5009,7 +5009,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][926640/Product[4k+i,{i,{3,4,6,7,8,12,13,14,16,17}}],{k,1,Infinity}]
+Inactive[Sum][926640/Product[4k+i,{i,{3,4,6,7,8,12,13,14,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5019,7 +5019,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12096/Product[4k+i,{i,{3,7,8,9,11,12,13,17}}],{k,1,Infinity}]
+Inactive[Sum][12096/Product[4k+i,{i,{3,7,8,9,11,12,13,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5029,7 +5029,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][12600/Product[4k+i,{i,{4,6,8,9,11,12,14,16}}],{k,1,Infinity}]
+Inactive[Sum][12600/Product[4k+i,{i,{4,6,8,9,11,12,14,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5039,7 +5039,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][665280/Product[4k+i,{i,{3,5,6,7,8,12,13,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][665280/Product[4k+i,{i,{3,5,6,7,8,12,13,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5049,7 +5049,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][570240/Product[4k+i,{i,{3,5,6,7,9,11,13,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][570240/Product[4k+i,{i,{3,5,6,7,9,11,13,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5059,7 +5059,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9072/Product[4k+i,{i,{4,7,8,9,11,12,13,16}}],{k,1,Infinity}]
+Inactive[Sum][9072/Product[4k+i,{i,{4,7,8,9,11,12,13,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5069,7 +5069,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][471744/Product[4k+i,{i,{3,4,7,8,9,11,12,13,16,17}}],{k,1,Infinity}]
+Inactive[Sum][471744/Product[4k+i,{i,{3,4,7,8,9,11,12,13,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5079,7 +5079,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][25945920/Product[4k+i,{i,{3,4,5,6,7,8,12,13,14,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][25945920/Product[4k+i,{i,{3,4,5,6,7,8,12,13,14,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5089,7 +5089,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][498960/Product[4k+i,{i,{4,5,6,7,8,12,13,14,15,16}}],{k,1,Infinity}]
+Inactive[Sum][498960/Product[4k+i,{i,{4,5,6,7,8,12,13,14,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5099,7 +5099,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][23587200/Product[4k+i,{i,{3,4,5,6,7,9,11,13,14,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][23587200/Product[4k+i,{i,{3,4,5,6,7,9,11,13,14,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5109,7 +5109,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][362880/Product[4k+i,{i,{3,5,7,8,9,11,12,13,15,17}}],{k,1,Infinity}]
+Inactive[Sum][362880/Product[4k+i,{i,{3,5,7,8,9,11,12,13,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5119,7 +5119,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][356400/Product[4k+i,{i,{4,5,6,8,9,11,12,14,15,16}}],{k,1,Infinity}]
+Inactive[Sum][356400/Product[4k+i,{i,{4,5,6,8,9,11,12,14,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5129,7 +5129,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][17297280/Product[4k+i,{i,{3,4,5,7,8,9,11,12,13,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][17297280/Product[4k+i,{i,{3,4,5,7,8,9,11,12,13,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5139,7 +5139,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][285120/Product[4k+i,{i,{3,6,7,8,9,11,12,13,14,17}}],{k,1,Infinity}]
+Inactive[Sum][285120/Product[4k+i,{i,{3,6,7,8,9,11,12,13,14,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5149,7 +5149,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][285120/Product[4k+i,{i,{4,5,7,8,9,11,12,13,15,16}}],{k,1,Infinity}]
+Inactive[Sum][285120/Product[4k+i,{i,{4,5,7,8,9,11,12,13,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5159,7 +5159,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][14414400/Product[4k+i,{i,{3,4,6,7,8,9,11,12,13,14,16,17}}],{k,1,Infinity}]
+Inactive[Sum][14414400/Product[4k+i,{i,{3,4,6,7,8,9,11,12,13,14,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5169,7 +5169,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][226800/Product[4k+i,{i,{4,6,7,8,9,11,12,13,14,16}}],{k,1,Infinity}]
+Inactive[Sum][226800/Product[4k+i,{i,{4,6,7,8,9,11,12,13,14,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5179,7 +5179,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][778377600/Product[4k+i,{i,{3,4,5,6,7,8,9,11,12,13,14,15,16,17}}],{k,1,Infinity}]
+Inactive[Sum][778377600/Product[4k+i,{i,{3,4,5,6,7,8,9,11,12,13,14,15,16,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5189,7 +5189,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][11975040/Product[4k+i,{i,{3,5,6,7,8,9,11,12,13,14,15,17}}],{k,1,Infinity}]
+Inactive[Sum][11975040/Product[4k+i,{i,{3,5,6,7,8,9,11,12,13,14,15,17}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}
@@ -5199,7 +5199,7 @@ $$
 $$
 
 ```wolfram
-Inactive[Sum][9979200/Product[4k+i,{i,{4,5,6,7,8,9,11,12,13,14,15,16}}],{k,1,Infinity}]
+Inactive[Sum][9979200/Product[4k+i,{i,{4,5,6,7,8,9,11,12,13,14,15,16}}],{k,0,Infinity}]
 ```
 $$
 \begin{aligned}

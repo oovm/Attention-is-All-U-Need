@@ -10,7 +10,7 @@ impl Display for Approx4K {
             }
             write!(f, "{}", c)?;
         }
-        f.write_str("}}],{k,1,Infinity}]")
+        f.write_str("}}],{k,0,Infinity}]")
     }
 }
 
@@ -18,21 +18,29 @@ impl Latexify for Approx4K {
     type Context = ();
     // \sum_{k=0}^∞\frac{1}{(4k+1)}=π+\frac{a}{b}
     fn fmt<W: Write>(&self, _: &Self::Context, f: &mut W) -> std::fmt::Result {
-        f.write_str(r#"\begin{aligned}
-&\sum_{k=0}^∞\frac{"#)?;
+        f.write_str(
+            r#"\begin{aligned}
+&\sum_{k=0}^∞\frac{"#,
+        )?;
         write!(f, "{}}}{{", self.magnification)?;
         for c in self.coefficients.iter() {
             write!(f, "(4k+{c})")?
         }
         f.write_str("}=")?;
-        if self.numerator < 0 {
+        if self.numerator == 0 {
+            f.write_str("π")?
+        }
+        else if self.numerator < 0 {
             write!(f, "π-\\frac{{{}}}{{{}}}", self.numerator.abs(), self.denominator)?
-        } else {
+        }
+        else {
             write!(f, "\\frac{{{}}}{{{}}}-π", self.numerator.abs(), self.denominator)?
         }
         write!(f, "\\\\\n&Δ={}", self.delta)?;
-        f.write_str(r#"\\
-\end{aligned}"#)?;
+        f.write_str(
+            r#"\\
+\end{aligned}"#,
+        )?;
         Ok(())
     }
 }

@@ -34,7 +34,7 @@ impl Approx4KData {
 
 #[test]
 fn update() {
-    let here = Path::new(env!("CARGO_MANIFEST_DIR")).join("src/about_e/approx_4k_i/readme.md");
+    let here = Path::new(env!("CARGO_MANIFEST_DIR")).join("src/about_pi/approx_4k_i/readme.md");
     let data = Approx4KData::load_json(include_str!("4k+1.json")).unwrap();
     write(here, data.to_string()).unwrap();
 }
