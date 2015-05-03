@@ -20,7 +20,7 @@ format4[pattern_List]:=Block[
     Association[
         "coefficients"->pattern,
         "magnification"->denom,
-        "positive"->Positive@frac,
+(*      "positive"->Positive@frac,*)
         "numerator"->Numerator@frac,
         "denominator"->Denominator@frac,
         "delta"->delta
@@ -29,7 +29,25 @@ format4[pattern_List]:=Block[
 
 
 SetDirectory@NotebookDirectory[];
-sets=Select[Subsets[Range@17,{2,17}],Min@#<=4&];
+condition[list_] := Min[list] <= 4;
+sets=Select[Subsets[Range[1,20],{2,20}],condition];
 patterns=ParallelMap[filter4,sets];
 data=format4/@(First/@patterns);
 Export["4k+1.json",data,"RawJSON"]
+
+
+
+patterns=Import["4k+1.json","RawJSON"]
+exprs=Flatten[Table[
+Inactive[Sum][1/Product[4k+i,{i,#}],{k,j,Infinity}],
+{j,0,5}
+]&/@patterns];
+searches=Denominator/@Convergents@ContinuedFraction[Pi,20];
+shift4[expr_]:=Block[
+	{coeff,normed,denom},
+	coeff=CoefficientList[Activate@expr,Pi];
+	normed=Denominator@Last@coeff;
+	denom=Denominator@First[normed*coeff];
+	If[MemberQ[searches,denom],normed*expr,Nothing]
+]
+Collect[outs//Activate,Pi]

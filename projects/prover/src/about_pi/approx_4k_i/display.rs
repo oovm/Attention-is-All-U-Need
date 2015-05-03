@@ -48,6 +48,9 @@ impl Latexify for Approx4K {
 impl Display for Approx4KData {
     fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
         for i in self.data.iter().sorted_by_key(|f| OrderedFloat(-f.delta)) {
+            // if 10000000000000 % i.denominator != 0 {
+            //     continue;
+            // }
             f.write_str("```wolfram\n")?;
             Display::fmt(i, f)?;
             f.write_str("\n```\n")?;
