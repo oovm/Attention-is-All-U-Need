@@ -16,7 +16,7 @@ filterMixed[params_List] := Block[
 
 
 SetDirectory@NotebookDirectory[];
-params=Select[Subsets[Range@24,{2,12}],Min[#]<5&];
+params=Select[Subsets[Range@12,{2,12}],Min[#]<5&];
 Length[params]
 data=ParallelMap[filterMixed,params];
 Length[data]
