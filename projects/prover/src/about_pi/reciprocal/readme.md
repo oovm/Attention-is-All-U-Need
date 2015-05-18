@@ -51,3 +51,17 @@ $$
 $$
 d = \frac{\sqrt{-j}}{2}
 $$
+
+
+
+### $j=4$
+
+$$
+\frac{1}{π}=\frac{2}{9} \underset{k=0}{\overset{\infty }{\sum }}\frac{(7 k+1) (4 k)!}{648^k (k!)^4}
+$$
+
+### $j=10$
+
+$$
+\frac{1}{π}=\frac{2 \sqrt{2}}{9} \underset{k=0}{\overset{\infty }{\sum }}\frac{(10 k+1) (4 k)!}{12^{4 k} (k!)^4}
+$$
