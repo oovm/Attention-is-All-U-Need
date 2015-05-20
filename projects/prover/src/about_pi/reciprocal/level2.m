@@ -20,7 +20,7 @@ RamanujanLevel2[j_]:=Block[
 	Nothing
 ]
 FormatLevel2[{j_,a_,b_}]:=Sqrt[2]Inactive[Sum][
-	(a k + b) S2A[k]/J2A[j]^(k+1/2),
+	(a k + b) S2A[k]/Round@J2A[j]^(k+1/2),
 	{k,0,Infinity}
 ]
 

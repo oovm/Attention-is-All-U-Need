@@ -57,11 +57,17 @@ $$
 ### $j=4$
 
 $$
-\frac{1}{π}=\frac{2}{9} \underset{k=0}{\overset{\infty }{\sum }}\frac{(7 k+1) (4 k)!}{648^k (k!)^4}
+\frac{1}{π}=\frac{2}{9}\sum_{k=0}^∞\frac{(4k)!}{(k!)^4}\frac{(7k+1)}{648^k}
 $$
 
 ### $j=10$
 
 $$
-\frac{1}{π}=\frac{2 \sqrt{2}}{9} \underset{k=0}{\overset{\infty }{\sum }}\frac{(10 k+1) (4 k)!}{12^{4 k} (k!)^4}
+\frac{1}{π}=\frac{2\sqrt{2}}{9}\sum_{k=0}^∞\frac{(4k)!}{(k!)^4}\frac{(10k+1)}{12^{4k}}
+$$
+
+### $j=58$
+
+$$
+\frac{1}{π}=\frac{2\sqrt{2}}{9801}\sum_{k=0}^∞\frac{(4k)!}{(k!)^4}\frac{(58⋅455 k+1103)}{396^{4k}}
 $$
