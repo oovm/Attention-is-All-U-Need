@@ -77,3 +77,22 @@ $$
 $$
 d=\frac{1}{2}+\frac{\sqrt{-j}}{6}
 $$
+
+### $j=27$
+
+$$
+\frac{1}{π}=\frac{2}{9}\sum_{k=0}^∞\frac{(4k)!}{(k!)^4}\frac{(7k+1)}{648^k}
+$$
+
+
+### $j=51$
+
+$$
+\frac{1}{π}=\frac{1}{36} \sqrt{3} \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (51 k+7)}{(k!)^5 (-12)^{3 k}}
+$$
+
+### $j=75$
+
+$$
+\frac{1}{π}=\frac{1}{12} \sqrt{15} \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (9 k+1)}{(k!)^5 (-8640)^k}
+$$
