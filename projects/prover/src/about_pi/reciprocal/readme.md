@@ -81,18 +81,33 @@ $$
 ### $j=27$
 
 $$
-\frac{1}{π}=\frac{2}{9}\sum_{k=0}^∞\frac{(4k)!}{(k!)^4}\frac{(7k+1)}{648^k}
+\frac{1}{π}=\frac{\sqrt{3}}{4}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (5 k+1)}{(k!)^5 (-192)^k}
 $$
 
 
 ### $j=51$
 
 $$
-\frac{1}{π}=\frac{1}{36} \sqrt{3} \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (51 k+7)}{(k!)^5 (-12)^{3 k}}
+\frac{1}{π}=\frac{\sqrt{3}}{36}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (51 k+7)}{(k!)^5 (-12)^{3 k}}
 $$
 
 ### $j=75$
 
 $$
-\frac{1}{π}=\frac{1}{12} \sqrt{15} \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (9 k+1)}{(k!)^5 (-8640)^k}
+\frac{1}{π}=\frac{\sqrt{15}}{12}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (9 k+1)}{(k!)^5 (-8640)^k}
 $$
+
+
+### $j=123$
+
+$$
+\frac{1}{π}=\frac{\sqrt{3}}{288}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (5\ 123 k+53)}{(k!)^5 (-48)^{3 k}}
+$$
+
+### $j=147$
+
+$$
+\frac{1}{π}=\frac{\sqrt{7}}{108} \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (165 k+13)}{(k!)^5 \left(-6^6 7\right)^k}
+$$
+
+
