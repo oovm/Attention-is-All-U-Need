@@ -119,5 +119,5 @@ $$
 ## Level4
 
 $$
-d=\frac{1}{2}+\frac{\sqrt{-j}}{6}
+d=\frac{1}{2}+\frac{\sqrt{-j}}{2}
 $$
