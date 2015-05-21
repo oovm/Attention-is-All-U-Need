@@ -81,33 +81,43 @@ $$
 ### $j=27$
 
 $$
-\frac{1}{π}=\frac{\sqrt{3}}{4}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (5 k+1)}{(k!)^5 (-192)^k}
+\frac{1}{π}=\frac{\sqrt{3}}{4}\sum_{k=0}^∞\frac{(2k)!(3k)!}{(k!)^5}\frac{(5k+1)}{(-2^6×3)^k}
 $$
 
 
 ### $j=51$
 
 $$
-\frac{1}{π}=\frac{\sqrt{3}}{36}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (51 k+7)}{(k!)^5 (-12)^{3 k}}
+\frac{1}{π}=\frac{\sqrt{3}}{36}\sum_{k=0}^∞\frac{(2k)!(3k)!}{(k!)^5}\frac{(51 k+7)}{(-2^6×3^3)^{k}}
 $$
 
 ### $j=75$
 
 $$
-\frac{1}{π}=\frac{\sqrt{15}}{12}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (9 k+1)}{(k!)^5 (-8640)^k}
+\frac{1}{π}=\frac{\sqrt{15}}{12}\sum_{k=0}^∞\frac{(2k)!(3k)!}{(k!)^5}\frac{(9 k+1)}{(-2^6×3×5)^k}
 $$
 
 
 ### $j=123$
 
 $$
-\frac{1}{π}=\frac{\sqrt{3}}{288}  \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (5\ 123 k+53)}{(k!)^5 (-48)^{3 k}}
+\frac{1}{π}=\frac{\sqrt{3}}{288}\sum_{k=0}^∞\frac{(2k)!(3k)!}{(k!)^5}\frac{(123⋅5 k+53)}{(-2^6×2^6×3^3)^{k}}
 $$
 
 ### $j=147$
 
 $$
-\frac{1}{π}=\frac{\sqrt{7}}{108} \underset{k=0}{\overset{\infty }{\sum }}\frac{((2 k)! (3 k)!) (165 k+13)}{(k!)^5 \left(-6^6 7\right)^k}
+\frac{1}{π}=\frac{\sqrt{7}}{108}\sum_{k=0}^∞\frac{(2k)!(3k)!}{(k!)^5}\frac{(165 k+13)}{\left(-2^6×3^6×7\right)^k}
 $$
 
+### $j=267$
 
+$$
+\frac{1}{π}=\frac{\sqrt{3}}{4500}\sum_{k=0}^∞\frac{(2k)!(3k)!}{(k!)^5}\frac{(267⋅53k+827)}{(-2^6×3^3×5^3)^{k}}
+$$
+
+## Level4
+
+$$
+d=\frac{1}{2}+\frac{\sqrt{-j}}{6}
+$$
