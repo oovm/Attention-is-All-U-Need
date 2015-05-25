@@ -125,12 +125,17 @@ $$
 ### $j=2$
 
 $$
-\frac{1}{π}=\frac{1}{2}\sum_{k=0}^∞\frac{(4 k+1) ((2 k)!)^3}{\left(-2^6\right)^k (k!)^6}
+\frac{1}{π}=\frac{1}{2}\sum_{k=0}^∞(-1)^k\left(\frac{(2 k)!}{(k!)^2}\right)^3\frac{(4 k+1)}{2^{6k}}
 $$
 
 ### $j=4$
 
 $$
-\frac{1}{π}=\frac{\sqrt{2}}{4}\sum_{k=0}^∞\frac{(6 k+1) ((2 k)!)^3}{(-2)^{9 k} (k!)^6}
+\frac{1}{π}=\frac{\sqrt{2}}{4}\sum_{k=0}^∞(-1)^k\left(\frac{(2 k)!}{(k!)^2}\right)^3\frac{(6 k+1)}{2^{9k}}
 $$
 
+## Level5
+
+$$
+d=\frac{1}{2}+\frac{\sqrt{-5j}}{10}
+$$
