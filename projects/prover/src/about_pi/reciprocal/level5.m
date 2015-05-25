@@ -1,34 +1,33 @@
 (* ::Package:: *)
 
-J4A[j_]:=Block[
-	{\[Tau]=(1+Sqrt[-j])/2,\[Eta]},
-	\[Eta]=DedekindEta[\[Tau]]/DedekindEta[4\[Tau]];
-	(\[Eta]^4+4^2\[Eta]^-4)^2
+J5A[j_]:=Block[
+	{\[Tau]=(5+Sqrt[-5j])/10,\[Eta]},
+	\[Eta]=DedekindEta[\[Tau]]/DedekindEta[5\[Tau]];
+	\[Eta]^6+5^3\[Eta]^-6+22
 ]
-S4A[k_]:=Binomial[2k,k]^3;
-S4A[k_]:=((2k)!/k!^2)^3;
-FilterLevel4[j_]:=Block[
-	{\[CapitalDelta]=N[Round@J4A[j]-J4A[j],100]},
+S5A[k_]:=Binomial[2k,k]Sum[Binomial[k,j]^2Binomial[k+j,j],{j,0,k}];
+FilterLevel5[j_]:=Block[
+	{\[CapitalDelta]=N[Round@J5A[j]-J5A[j],100]},
 	Abs[\[CapitalDelta]]<10^-10
 ]
-RamanujanLevel4[j_]:=Block[
+RamanujanLevel5[j_]:=Block[
 	{x1,x2,l,a,b},
-	x1=I Pi Sum[k S4A[k]/Round@J4A[j]^(k+1/2),{k,0,Infinity}];
-	x2=I Pi Sum[  S4A[k]/Round@J4A[j]^(k+1/2),{k,0,Infinity}];
+	x1=I Pi Sum[k S5A[k]/Round@J5A[j]^(k+1/2),{k,0,Infinity}];
+	x2=I Pi Sum[  S5A[k]/Round@J5A[j]^(k+1/2),{k,0,Infinity}];
 	{l,a,b}=FindIntegerNullVector[N[{-1,x1,x2},100]];
 	If[l==-1,Return@{j,-a,-b}];
 	If[l==1,Return@{j,a,b}];
 	Nothing
 ]
-FormatLevel4[{j_,a_,b_}]:=I Inactive[Sum][
-	(a k + b) S4A[k]/Round@J4A[j]^(k+1/2),
+FormatLevel5[{j_,a_,b_}]:=I Inactive[Sum][
+	(a k + b) S5A[k]/Round@J5A[j]^(k+1/2),
 	{k,0,Infinity}
 ]
 
 
-candidates=Quiet@Select[Range[2,163],FilterLevel4]
-coefficient=RamanujanLevel4/@candidates
-FormatLevel4/@coefficient
+candidates=Quiet@Select[Range[2,815],FilterLevel5]
+coefficient=RamanujanLevel5/@candidates
+FormatLevel5/@coefficient
 
 
 
