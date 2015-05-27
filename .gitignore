@@ -4,7 +4,7 @@
 .vs/
 *.iml
 
-# Yarn
+# Node
 yarn.lock
 node_modules/
 npm-debug.log*
@@ -13,6 +13,7 @@ yarn-error.log*
 Thumbs.db
 .DS_Store
 *.zip
+package-lock.json
 
 # Build
 .build/

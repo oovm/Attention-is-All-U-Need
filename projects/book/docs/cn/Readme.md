@@ -8,13 +8,13 @@ footer: CC0 Licensed | Copyright © 2012-2019 Aster™
 ## 安装
 
 
-## 配置
+## π 类型
 
 
-## 运行
 
-```valkyrie
-> "Hello World!"
-```
+$$\sum_{k=0}^∞\frac{m}{\Pi_{i∈I}(4k+i)}=\left|\frac{p}{q}-π\right|$$
 
-## 目标
+[4k+i 型](./π-family/4k+i.md)
+
+
+## e 类型

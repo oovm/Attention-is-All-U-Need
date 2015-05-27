@@ -1,7 +1,9 @@
-import {defaultTheme, defineUserConfig, SiteLocaleConfig} from "vuepress";
-import {shikiPlugin} from "@vuepress/plugin-shiki";
+import { defaultTheme, defineUserConfig, SiteLocaleConfig } from "vuepress";
+import { shikiPlugin } from "@vuepress/plugin-shiki";
 import * as path from "path";
-import {sidebar_cn} from "./sidebars";
+import { sidebar_cn } from "./sidebars";
+
+import mathjax3 from 'markdown-it-mathjax3';
 
 
 const locales: SiteLocaleConfig = {
@@ -49,7 +51,7 @@ export default defineUserConfig({
     description: 'A multi-stage gradual typed language',
     locales: locales,
     head: [
-        ['link', {rel: 'shortcut icon', type: "image/x-icon", href: './favicon.png'}]
+        ['link', { rel: 'shortcut icon', type: "image/x-icon", href: './favicon.png' }]
     ],
     theme: theme,
     // serviceWorker: true,
@@ -60,6 +62,10 @@ export default defineUserConfig({
         //
         // }
     },
+    extendsMarkdown: md => {
+        md.use(mathjax3)
+        md.linkify.set({ fuzzyEmail: false })
+    },
     plugins: [
         shikiPlugin({
             theme: "one-dark-pro",
@@ -69,6 +75,7 @@ export default defineUserConfig({
                 "python",
                 "rust",
                 "yaml",
+                "wolfram",
                 {
                     id: "Valkyrie",
                     scopeName: "source.vk",
